@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Forms</title>
+  <style>
+    #loader {
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+      visibility: visible;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background: #fff;
+      z-index: 90000;
+    }
+
+    #loader.fadeOut {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: calc(50% - 20px);
+      left: calc(50% - 20px);
+      background-color: #333;
+      border-radius: 100%;
+      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+      animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0)
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+  </style>
+</head>
+
+<body class="app">
+  <!-- @TOC -->
+  <!-- =================================================== -->
+  <!--
+      + @Page Loader
+      + @App Content
+          - #Left Sidebar
+              > $Sidebar Header
+              > $Sidebar Menu
+
+          - #Main
+              > $Topbar
+              > $App Screen Content
+    -->
+
+  <!-- @Page Loader -->
+  <!-- =================================================== -->
+  <div id='loader'>
+    <div class="spinner"></div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function load() {
+      const loader = document.getElementById('loader');
+      setTimeout(function () {
+        loader.classList.add('fadeOut');
+      }, 300);
+    });
+
+  </script>
+
+  <!-- @App Content -->
+  <!-- =================================================== -->
+  <div>
+    <!-- #Left Sidebar ==================== -->
+    <div class="sidebar">
+      <div class="sidebar-inner">
+        <!-- ### $Sidebar Header ### -->
+        <div class="sidebar-logo">
+          <div class="peers ai-c fxw-nw">
+            <div class="peer peer-greed">
+              <a class="sidebar-link td-n" href="index.html">
+                <div class="peers ai-c fxw-nw">
+                  <div class="peer">
+                    <!-- <div class="logo">
+                      <img src="assets/static/images/logo.png" alt="">
+                    </div> -->
+                  </div>
+                  <div class="peer peer-greed">
+                    <h5 class="lh-1 mB-0 logo-text" style="padding: 20px;text-align: center;">Advanced Garden Monitor
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="peer">
+              <div class="mobile-toggle sidebar-toggle">
+                <a href="" class="td-n">
+                  <i class="ti-arrow-circle-left"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ### $Sidebar Menu ### -->
+        <ul class="sidebar-menu scrollable pos-r">
+          <li class="nav-item mT-30 active">
+            <a class="sidebar-link" href="index.html">
+              <span class="icon-holder">
+                <i class="c-blue-500 ti-home"></i>
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="forms.html">
+              <span class="icon-holder">
+                <i class="c-light-blue-500 ti-pencil"></i>
+              </span>
+              <span class="title">Plants and Sensors</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- #Main ============================ -->
+    <div class="page-container">
+      <!-- ### $Topbar ### -->
+      <div class="header navbar">
+        <div class="header-container">
+          <ul class="nav-left">
+            <li>
+              <a id='sidebar-toggle' class="sidebar-toggle" href="javascript:void(0);">
+                <i class="ti-menu"></i>
+              </a>
+            </li>
+        </div>
+      </div>
+
+      <!-- ### $App Screen Content ### -->
+      <main class='main-content bgc-grey-100'>
+        <div id='mainContent'>
+          <div class="row gap-20 masonry pos-r">
+            <div class="masonry-sizer col-md-6">
+
+            </div>
+
+            <div id="enclosures"></div>
+            <div id="plants"></div>
+            <!-- sensor type. if enc, enc_id; if plnt, plnt_id; if enc, sensor-type defaults to temp humid. if plnt, choose between soil-temp and soil-moist -->
+            <div class="masonry-item col-md-6">
+              <div class="bgc-white p-20 bd">
+                <h6 class="c-grey-900">Create Sensor</h6>
+                <p style="color:#d32f2f" id="errorMessageCreateSensor"></p>
+                <div class="mT-30">
+                  <form class="container" id="needs-validation" novalidate>
+                    <div class="row">
+                      <!-- <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                          value="Mark" required>
+                      </div> -->
+                      <div class="col-md-6 mb-3">
+                        <label for="inputSensorType">Sensor Type</label>
+                        <select onchange="setForm()" id="inputSensorType" class="form-control" required>
+                          <option value="" selected>Choose...</option>
+                          <option value="plant">Plant</option>
+                          <option value="enclosure">Enclosure</option>
+                        </select>
+                      </div>
+                      <!-- <div class="col-md-6 mb-3">
+                        <label for="validationCustom02">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
+                          value="Otto" required>
+                      </div> -->
+                      <div class="col-md-6 mb-3">
+                        <label for="inputSensorFnc">Sensor Function</label>
+                        <select id="inputSensorFnc" class="form-control" required>
+                          <option value="" selected>Choose...</option>
+                          <option id="snsr_fnc_temp_humid" value="temp-humid">Temperature-Humidity</option>
+                          <option id="snsr_fnc_soil_moist" value="soil-moist">Soil-Moisture</option>
+                          <option id="snsr_fnc_soil_temp" value="soil-temp">Soil-Temperature</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 mb-3">
+                        <label id="fnc_id" for="validationCustom05">Plant ID</label>
+                        <input type="number" min="1" class="form-control" id="fnc_id_val" placeholder="ID" required>
+                        <div class="invalid-feedback">
+                          ID must be an integer greater than 0
+                        </div>
+                      </div>
+                      <!-- <div class="col-md-3 mb-3">
+                        <label id="fnc_id_enc" for="validationCustom05">Enclosure ID</label>
+                        <input type="number" min="1" class="form-control" id="fnc_id_enc_val" placeholder="ID" required>
+                        <div class="invalid-feedback">
+                          ID must be an integer greater than 0
+                        </div>
+                      </div> -->
+                    </div>
+                    <button class="btn btn-primary" type="submit">Create Sensor</button>
+                    <br>
+                    <br>
+                    <br>
+                  </form>
+                  <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                      'use strict';
+
+
+                      window.addEventListener('load', function () {
+                        var form = document.getElementById('needs-validation');
+                        let inputSnsrType = $('#inputSensorType');
+
+                        if (inputSnsrType.val() === "plant") {
+                          // $('#fnc_id_val').prop('disabled', false);
+                          $('#fnc_id').text('Plant ID')
+                        } else if (inputSnsrType.val() === "enclosure") {
+                          // $('#fnc_id').prop('disabled', true);
+                          // $('#fnc_id_val').prop('disabled', true);
+                          $('#snsr_fnc_soil_moist').prop('disabled', true);
+                          $('#snsr_fnc_soil_temp').prop('disabled', true);
+                        } else {
+                          // $('#inputSensorFnc').prop('disabled', true);
+                          // $('#fnc_id_val').prop('disabled', true);
+                        }
+
+                        form.addEventListener('submit', function (event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          } else {
+                            submitCreateSensor();
+                            event.preventDefault();
+                            event.stopPropagation();
+                            //TODO plant-id and enc-id are both being passed, while one of them should not be (depending on selection)
+                            //TODO add form to add plant, and enclosure
+                            // let enclosure_data = retrieveEnclosureData();
+                            processTableUpdate();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      }, false);
+                    })();
+
+                  </script>
+                </div>
+              </div>
+            </div>
+
+            <div class="masonry-item col-md-6">
+              <div class="bgc-white p-20 bd">
+                <h6 class="c-grey-900">Create Plant</h6>
+                <p style="color:#d32f2f" id="errorMessageCreatePlant"></p>
+                <div class="mT-30">
+                  <form class="container" id="create-plant" novalidate>
+                    <div class="row">
+                      <div class=" col-md-6 mb-3">
+                        <label for="inputSensorType">Name</label>
+                        <input type="text" class="form-control" id="plant_name" placeholder="Pepper 1" required>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label id="plant_enc_id_lbl" for="plant_enc_id">Enclosure ID</label>
+                        <input type="number" min="1" class="form-control" id="plant_enc_id" placeholder="ID" required>
+                        <div class="invalid-feedback">
+                          ID must be an integer greater than 0
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 mb-3">
+                        <label id="plant_size_lbl" for="validationCustom05">Plant Size (Gallons)</label>
+                        <input type="number" min="1" class="form-control" id="plant_size" placeholder="Size" required>
+                        <div class="invalid-feedback">
+                          ID must be an integer greater than 0
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Create Plant</button>
+                    <br>
+                    <br>
+                    <br>
+                  </form>
+                  <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                      'use strict';
+
+
+                      window.addEventListener('load', function () {
+                        var form = document.getElementById('create-plant');
+
+                        form.addEventListener('submit', function (event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          } else {
+                            submitCreatePlant();
+                            event.preventDefault();
+                            event.stopPropagation();
+
+                            // let enclosure_data = retrieveEnclosureData();
+                            processTableUpdate();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      }, false);
+                    })();
+
+                  </script>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+
+            <div class="masonry-item col-md-6">
+              <div class="bgc-white p-20 bd">
+                <h6 class="c-grey-900">Create Enclosure</h6>
+                <p style="color:#d32f2f" id="errorMessageCreateEnclosure"></p>
+                <div class="mT-30">
+
+                  <form class="container" id="create-enclosure" novalidate>
+                    <div class="row">
+                      <div class=" col-md-6 mb-3">
+                        <label for="enclosure_name">Name</label>
+                        <input type="text" class="form-control" id="enclosure_name" placeholder="Peppers" required>
+                      </div>
+                      <div class=" col-md-6 mb-3">
+                        <label for="enclosure_location">Location</label>
+                        <input type="text" class="form-control" id="enclosure_location" placeholder="Basement Table 1"
+                          required>
+                      </div>
+                    </div>
+                    <p>Enclosure Dimension</p>
+                    <div class="row">
+                      <div class="col-md-3 mb-3">
+                        <label id="fnc_id" for="enclosure_length">Length</label>
+                        <input type="number" min="0" class="form-control" id="enclosure_length" placeholder="L"
+                          required>
+                        <div class="invalid-feedback">
+                          ID must be an integer greater than 0
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label id="fnc_id" for="enclosure_width">Width</label>
+                        <input type="number" min="0" class="form-control" id="enclosure_width" placeholder="W" required>
+                        <div class="invalid-feedback">
+                          ID must be an integer greater than or equal to 0
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label id="fnc_id" for="enclosure_height">Height</label>
+                        <input type="number" min="0" class="form-control" id="enclosure_height" placeholder="H"
+                          required>
+                        <div class="invalid-feedback">
+                          ID must be an integer greater than or equal to 0
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row">
+                      <label for="enclosure_dimention_units">Dimension Units</label>
+                      <select id="enclosure_dimention_units" class="form-control" required>
+                        <option value="" selected>Choose...</option>
+                        <option id="snsr_fnc_temp_humid" value="meters">Meters</option>
+                        <option id="snsr_fnc_soil_moist" value="feet">Feet</option>
+                      </select>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" type="submit">Create Enclosure</button>
+                    <br><br><br>
+                  </form>
+
+                  <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                      'use strict';
+
+                      window.addEventListener('load', function () {
+                        var form = document.getElementById('create-enclosure');
+
+                        form.addEventListener('submit', function (event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          } else {
+                            submitCreateEnclosure();
+                            event.preventDefault();
+                            event.stopPropagation();
+                            // let enclosure_data = retrieveEnclosureData();
+                            processTableUpdate();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      }, false);
+                    })();
+
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+
+      <!-- ### $App Screen Footer ### -->
+      <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
+        <span>Copyright © 2019 <a href="https://colby.io" target='_blank' title="Colorlib">CJ Software</a>.
+          All rights reserved.</span>
+      </footer>
+    </div>
+  </div>
+</body>
+<script>
+  function setForm() {
+    let formState = $('#inputSensorType').val();
+    let inputSnsrFnc = $('#inputSensorFnc');
+
+    if (formState === 'enclosure') {
+
+      if (inputSnsrFnc.val() !== 'temp-humid') {
+        inputSnsrFnc.val("")
+      }
+
+      // inputSnsrFnc.prop('disabled', false);
+      // $('#fnc_id_val').prop('disabled', true);
+
+      $('#snsr_fnc_soil_moist').prop('disabled', true);
+      $('#snsr_fnc_soil_temp').prop('disabled', true);
+
+      // inputSnsrFnc.val('Temperature-Humidity');
+      $('#fnc_id').text('Enclosure ID')
+      // $('#fnc_id').prop('disabled', true);
+
+    } else if (formState === 'plant') {
+      // $('#fnc_id').prop('disabled', false);
+      inputSnsrFnc.prop('disabled', false);
+      // $('#fnc_id_val').prop('disabled', false);
+
+      $('#snsr_fnc_soil_moist').prop('disabled', false);
+      $('#snsr_fnc_soil_temp').prop('disabled', false);
+      $('#fnc_id').text('Plant ID')
+
+    } else {
+      $('#fnc_id').prop('disabled', true);
+    }
+
+  }
+
+  function submitCreateEnclosure() {
+    let title = $("#enclosure_name").val();
+    let location = $("#enclosure_location").val();
+    let length = $("#enclosure_length").val();
+    let width = $("#enclosure_width").val();
+    let height = $("#enclosure_height").val();
+    let dimension_units = $("#enclosure_dimention_units").val();
+
+    let data = {
+      "title": title,
+      "location": location,
+      "length": length,
+      "dimension-units": dimension_units,
+      "width": width,
+      "height": height
+    }
+
+    console.log("Create Enc")
+
+    $.ajax({
+      url: "http://localhost:8080/enclosures",
+      beforeSend: function (request) {
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        request.setRequestHeader("Content-Type", "application/json")
+
+      },
+      dataType: 'json',
+      data: JSON.stringify(data),
+      contentType: "application/json; charset=utf-8",
+      async: false,
+      method: "POST",
+      success: function (data) {
+        $("#errorMessageCreateEnclosure").empty();
+        console.log("success:");
+        console.log(data);
+      },
+      error: function (data) {
+        $("#errorMessageCreateEnclosure").empty()
+        $("#errorMessageCreateEnclosure").append("Error when attempting to create enclosure.");
+        console.log("error");
+        console.log(data)
+      }
+    });
+
+    console.log(data);
+
+  }
+
+  function submitCreatePlant() {
+
+    let enclosure_id = $('#plant_enc_id').val();
+    let plant_name = $('#plant_name').val();
+    let plant_size = $('#plant_size').val();
+
+    data = {
+      "enclosure-id": enclosure_id,
+      "name": plant_name,
+      "pot-size": plant_size,
+      "pot-size-units": "gallons"
+    }
+
+    $.ajax({
+      url: "http://localhost:8080/plants",
+      beforeSend: function (request) {
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        request.setRequestHeader("Content-Type", "application/json")
+
+      },
+      dataType: 'json',
+      data: JSON.stringify(data),
+      contentType: "application/json; charset=utf-8",
+      async: false,
+      method: "POST",
+      success: function (data) {
+        $("#errorMessageCreateSensor").empty();
+        console.log("success:");
+        console.log(data);
+      },
+      error: function (data) {
+        $("#errorMessageCreatePlant").empty()
+        $("#errorMessageCreatePlant").append("Error: Enclosure ID does not exist.");
+        console.log("error");
+        console.log(data)
+      }
+    });
+
+    // console.log(data)
+  }
+
+  function submitCreateSensor() {
+
+    let sensor_type = $('#inputSensorFnc').val();
+
+    switch (sensor_type) {
+      case "temp-humid":
+        sensor_type = "temperature-humidity";
+        break;
+      case "soil-moist":
+        sensor_type = "soil-moisture";
+        break;
+      case "soil-temp":
+        sensor_type = "soil-temperature";
+        break;
+    }
+
+    let isEnc = ($('#inputSensorType').val() == "enclosure" ? true : false);
+    let plant_id = isEnc ? 0 : $('#fnc_id_val').val()
+    let enclosure_id = $('#fnc_id_val').val();
+
+    data = (isEnc ? {
+      "enclosure-id": enclosure_id,
+      "sensor-type": sensor_type,
+      "is-enclosure": isEnc,
+      "is-plant": !isEnc
+    } : {
+      "plant-id": plant_id,
+      "sensor-type": sensor_type,
+      "is-enclosure": isEnc,
+      "is-plant": !isEnc
+    })
+
+    $.ajax({
+      url: "http://localhost:8080/sensors",
+      beforeSend: function (request) {
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        request.setRequestHeader("Content-Type", "application/json")
+
+      },
+      dataType: 'json',
+      data: JSON.stringify(data),
+      contentType: "application/json; charset=utf-8",
+      async: false,
+      method: "POST",
+      success: function (data) {
+        $("#errorMessageCreateSensor").empty();
+        console.log("success:");
+        console.log(data);
+      },
+      error: function (data) {
+        $("#errorMessageCreateSensor").empty()
+        $("#errorMessageCreateSensor").append("Error: {type} ID does not exist."
+          .replace("{type}", (isEnc ? "Enclosure" : "Plant")));
+        console.log("error");
+        console.log(data)
+      }
+    });
+
+    // console.log(data)
+
+  }
+
+  function retrieveEnclosureData(sensor_type) {
+    let enclosures = -1;
+
+    $.ajax({
+      url: "http://localhost:8080/enclosures",
+      beforeSend: function (request) {
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+      },
+      dataType: 'json',
+      async: false,
+      method: "GET",
+      // data: myData,
+      success: function (data) {
+        enclosures = data;
+      }
+    });
+
+    return {
+      enclosures: enclosures
+    }
+  }
+
+  function retrievePlantData() {
+    let plants = -1;
+
+    $.ajax({
+      url: "http://localhost:8080/plants",
+      beforeSend: function (request) {
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+      },
+      dataType: 'json',
+      async: false,
+      method: "GET",
+      // data: myData,
+      success: function (data) {
+        plants = data;
+      }
+    });
+
+    return {
+      plants: plants
+    }
+  }
+
+  let enclosure_data = retrieveEnclosureData();
+  let plant_data = retrievePlantData();
+  // console.log(enclosure_data)
+  populateTablesEnclosure(enclosure_data);
+  populateTablesPlants(plant_data);
+  //sensorInfo
+
+  function processTableUpdate() {
+    $('#plants').empty();
+    $('#enclosures').empty();
+
+    //TODO have update live
+    // return populateTables(enclosure_data);
+    location.reload();
+  }
+  //<a href="#" class="close">
+  function populateTablesEnclosure(enclosures) {
+    let table_html = "<div class=\"masonry-item col-md-6\">" +
+      "<div class=\"bd bgc-white p-20\">" +
+      "<h3>{title} - ID: {id} (Enclosure)</h3>" +
+      "<table class=\"table table-hover\">" +
+      "<thead>" +
+      "<tr align=\"center\">" +
+      "<th scope=\"col\">Sensor ID</th>" +
+      "<th scope=\"col\">Sensor Type</th>" +
+      "<th scope=\"col\">Sensor Location</th>" +
+      "<th scope=\"col\">Delete Sensor</th>" +
+      "</tr>" +
+      "</thead>" +
+      "<tbody>{table_contents}" +
+      "</tbody>" +
+      "</table>" +
+      "</div>" +
+      "</div>";
+
+    let result = "";
+
+    enclosures.enclosures.forEach(function (enclosure) {
+      let enclosure_id = enclosure['enclosure-id'];
+      result += table_html.replace("{table_contents}", populateTableContentEnclosure(enclosures.enclosures,
+          enclosure_id))
+        .replace("{title}", enclosure['title'])
+        .replace("{id}", enclosure_id);
+    });
+
+    $('#enclosures').append(result);
+
+  }
+
+  function populateTablesPlants(plant_data) {
+    let table_html = "<div class=\"masonry-item col-md-6\">" +
+      "<div class=\"bd bgc-white p-20\">" +
+      "<h3>Plants</h3>" +
+      "<table class=\"table table-hover\">" +
+      "<thead>" +
+      "<tr align=\"center\">" +
+      "<th scope=\"col\">Plant Name</th>" +
+      "<th scope=\"col\">Plant ID</th>" +
+      "<th scope=\"col\">Enclosure ID</th>" +
+      "<th scope=\"col\">Delete Plant</th>" +
+      "</tr>" +
+      "</thead>" +
+      "<tbody>{table_contents}" +
+      "</tbody>" +
+      "</table>" +
+      "</div>" +
+      "</div>";
+
+    let result = "";
+
+    console.log(plant_data)
+
+    result += table_html.replace("{table_contents}", populateTableContentPlants(plant_data.plants));
+
+    // plant_data.plants.forEach(function (plant) {
+    //   let plant_id = plant['plant-id'];
+    // });
+
+    $('#plants').append(result);
+
+  }
+
+  function populateTableContentPlants(plants) {
+    let table_html =
+      "<tr align=\"center\">" +
+      "<th scope=\"row\">{plant_name}</th>" +
+      "<th>{plant_id}</th>" +
+      "<th>{enclosure_id}</th>" +
+      "<th><div onclick=\"deletePlant({id})\" style=\"font-size: 25px\" class=\"fa fa-close\"></div></th>" +
+      "</tr>"
+
+    let table_res = "";
+
+    plants.forEach(function (plant) {
+      // if (plant['is-plant'] == true) {
+      table_res += table_html
+        .replace("{plant_name}", plant['name'])
+        .replace("{plant_id}", plant['plant-id'])
+        .replace("{enclosure_id}", plant['enclosure-id'])
+        .replace("{id}", plant['plant-id'])
+
+      // }
+    });
+
+    return table_res;
+
+  }
+
+  function deleteSensor(id) {
+    deleteConfirm = confirm("Are you sure you want to delete Sensor with ID " + id + " ? ");
+
+    if (deleteConfirm) {
+      $.ajax({
+        url: "http://localhost:8080/sensors/" + id,
+        beforeSend: function (request) {
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+          // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        },
+        dataType: 'json',
+        async: true,
+        method: "DELETE",
+        // data: myData,
+        success: function (data) {
+          console.log("deleted sensor with id " + id + " successfully")
+          location.reload();
+
+        }
+      });
+    }
+  }
+
+  function deletePlant(id) {
+    deleteConfirm = confirm("Are you sure you want to delete Plant with ID " + id + " ? ");
+
+    if (deleteConfirm) {
+      $.ajax({
+        url: "http://localhost:8080/plants/" + id,
+        beforeSend: function (request) {
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+          // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        },
+        dataType: 'json',
+        async: true,
+        method: "DELETE",
+        // data: myData,
+        success: function (data) {
+          console.log("deleted plant with id " + id + " successfully")
+          location.reload();
+        }
+      });
+    }
+  }
+
+  function populateTableContentEnclosure(enclosures, enclosure_id) {
+    let table_html =
+      "<tr align=\"center\">" +
+      "<th scope=\"row\">{snsr_id}</th>" +
+      "<th>{snsr_type}</th>" +
+      "<th>{snsr_loc} {id}</th>" +
+      "<th><div onclick=\"deleteSensor({snsr_id})\" style=\"font-size: 25px\" class=\"fa fa-close\"></div></th>" +
+      "</tr>"
+
+    let table_res = "";
+
+    let plant_data = {};
+    enclosures.forEach(function (enclosure) {
+      enclosure.plants.forEach(function (plnt) {
+        plant_data[plnt['plant-id']] = plnt['name']
+      });
+    });
+
+    // console.log(plant_data)
+
+    enclosures.forEach(function (enclosure) {
+      if (enclosure['enclosure-id'] == enclosure_id) {
+        enclosure.sensors.forEach(function (snsr) {
+          // console.log("snsr")
+          // console.log(snsr)
+          if (snsr['is-enclosure'] == true) {
+            table_res += table_html
+              .replace("{snsr_id}", snsr['sensor-id'])
+              .replace("{snsr_type}", snsr['sensor-type'])
+              .replace("{snsr_loc}", enclosure['title'].concat(" (E)"))
+              .replace("{id}", "")
+              .replace("{snsr_id}", snsr['sensor-id']);
+          } else {
+            table_res += table_html
+              .replace("{snsr_id}", snsr['sensor-id'])
+              .replace("{snsr_type}", snsr['sensor-type'])
+              //create function to retrieve mapping of plant-ids to name
+              .replace("{snsr_loc}", (snsr['plant-id'] in plant_data ? plant_data[snsr['plant-id']]
+                .concat(" (P)") : "{null}"))
+              .replace("{id}", " - ID: ".concat(snsr['plant-id']))
+              .replace("{enc_id}", enclosure['enclosure-id'])
+              .replace("{snsr_id}", snsr['sensor-id']);
+          }
+        });
+      }
+    });
+
+    return table_res;
+
+  }
+
+  //form to create sensor
+  function loadSensorForm() {
+
+  }
+
+  function updateSensor() {
+    alert('sensor updated');
+  }
+
+</script>
+
+</html>

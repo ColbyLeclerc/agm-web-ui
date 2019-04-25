@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Dashboard</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <style>
+    #loader {
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+      visibility: visible;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background: #fff;
+      z-index: 90000;
+    }
+
+    #loader.fadeOut {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: calc(50% - 20px);
+      left: calc(50% - 20px);
+      background-color: #333;
+      border-radius: 100%;
+      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+      animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0)
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+  </style>
+</head>
+
+<body class="app">
+  <!-- @TOC -->
+  <!-- =================================================== -->
+  <!--
+      + @Page Loader
+      + @App Content
+          - #Left Sidebar
+              > $Sidebar Header
+              > $Sidebar Menu
+
+          - #Main
+              > $Topbar
+              > $App Screen Content
+    -->
+
+  <!-- @Page Loader -->
+  <!-- =================================================== -->
+  <div id='loader'>
+    <div class="spinner"></div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function load() {
+      const loader = document.getElementById('loader');
+      setTimeout(function () {
+        loader.classList.add('fadeOut');
+      }, 300);
+    });
+
+  </script>
+
+  <!-- @App Content -->
+  <!-- =================================================== -->
+  <div>
+    <!-- #Left Sidebar ==================== -->
+    <div class="sidebar">
+      <div class="sidebar-inner">
+        <!-- ### $Sidebar Header ### -->
+        <div class="sidebar-logo">
+          <div class="peers ai-c fxw-nw">
+            <div class="peer peer-greed">
+              <a class="sidebar-link td-n" href="index.html">
+                <div class="peers ai-c fxw-nw">
+                  <div class="peer">
+                    <!-- <div class="logo">
+                      <img style="width: 50%; height: 50%" src="assets/static/images/logo.jpg" alt="">
+                    </div> -->
+                  </div>
+                  <div class="peer peer-greed">
+                    <h5 class="lh-1 mB-0 logo-text" style="padding: 20px;text-align: center;">Advanced Garden Monitor
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="peer">
+              <div class="mobile-toggle sidebar-toggle">
+                <a href="" class="td-n">
+                  <i class="ti-arrow-circle-left"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ### $Sidebar Menu ### -->
+        <ul class="sidebar-menu scrollable pos-r">
+          <li class="nav-item mT-30 active">
+            <a class="sidebar-link" href="index.html">
+              <span class="icon-holder">
+                <i class="c-blue-500 ti-home"></i>
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="forms.html">
+              <span class="icon-holder">
+                <i class="c-light-blue-500 ti-pencil"></i>
+              </span>
+              <span class="title">Plants and Sensors</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- #Main ============================ -->
+    <div class="page-container">
+      <!-- ### $Topbar ### -->
+      <div class="header navbar">
+        <div class="header-container">
+          <ul class="nav-left">
+            <li>
+              <a id='sidebar-toggle' class="sidebar-toggle" href="javascript:void(0);">
+                <i class="ti-menu"></i>
+              </a>
+            </li>
+        </div>
+      </div>
+
+      <!-- ### $App Screen Content ### -->
+      <main class='main-content bgc-grey-100'>
+        <div id='mainContent'>
+          <div class="row gap-20 masonry pos-r">
+            <div class="masonry-sizer col-md-6"></div>
+            <div class="masonry-item  w-100">
+              <div class="row gap-20">
+                <div class="masonry-item col-md-6">
+                  <!-- #Todo ==================== -->
+                  <div class="bd bgc-white p-20">
+                    <h3>Enclosures</h3>
+                    <p>Click an enclosure below to view the graphical data of all associated sensor</p>
+                    <table class="table table-hover">
+                      <thead>
+                        <tr align="center">
+                          <th scope="col">Title</th>
+                          <th scope="col">Location</th>
+                          <th scope="col">Number of Plants</th>
+                        </tr>
+                      </thead>
+                      <tbody id="tableBody">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- ### $App Screen Footer ### -->
+      <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
+        <span>Copyright © 2019 <a href="https://colby.io" target='_blank' title="Colorlib">CJ Software</a>.
+          All rights reserved.</span>
+      </footer>
+    </div>
+  </div>
+</body>
+<script>
+  // function retrieveEnclosureData() {
+  //   let enclosures = -1;
+
+  //   $.ajax({
+  //     url: "json-data/enclosures.json",
+  //     dataType: 'json',
+  //     async: false,
+  //     // data: myData,
+  //     success: function (data) {
+  //       enclosures = data;
+  //     }
+  //   });
+
+  //   // console.log("enc: " + enclosures + " read: " + readings);
+
+  //   return {
+  //     enclosures: enclosures
+  //   }
+  // }
+
+  function retrieveEnclosureData() {
+    let enclosures = -1;
+
+    $.ajax({
+      url: "http://localhost:8080/enclosures",
+      beforeSend: function (request) {
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+      },
+      dataType: 'json',
+      async: false,
+      method: "GET",
+      // data: myData,
+      success: function (data) {
+        enclosures = data;
+      }
+    });
+
+    console.log(enclosures)
+
+    // console.log("enc: " + enclosures + " read: " + readings);
+
+    return {
+      enclosures: enclosures
+    }
+  }
+
+  let enclosure_data = retrieveEnclosureData();
+  // console.log(enclosure_data)
+  populateTable(enclosure_data);
+
+  function populateTable(enclosure_data) {
+    let table_html =
+      "<tr align=\"center\" onclick=\"window.location.href = \'enclosure-detail.html?enclosure-id={enc_id}\'\">" +
+      "<th scope=\"row\">{enc_title}</th>" +
+      "<th>{enc_loc}</th>" +
+      "<th>{enc_plnt_count}</th>" +
+      "</tr>"
+
+    let table_res = "";
+
+    enclosure_data.enclosures.forEach(function (enc) {
+      table_res += table_html.replace("{enc_id}", enc['enclosure-id'])
+        .replace("{enc_title}", enc['title'])
+        .replace("{enc_loc}", enc['location'])
+        .replace("{enc_plnt_count}", enc['plants'].length);
+    });
+
+    console.log(table_res)
+
+    $("#tableBody").append(table_res);
+
+  }
+
+</script>
+
+</html>

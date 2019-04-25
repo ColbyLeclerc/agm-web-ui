@@ -1,0 +1,1500 @@
+[{
+    "temperature-humidity-reading-id": 0,
+    "sensor-id": 114,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 17.33,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-10-22T02:17:15 +04:00",
+    "last-updated-date-time": "2018-04-30T04:29:58 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 1,
+    "sensor-id": 114,
+    "temp-level": 67,
+    "temp-scale": "f",
+    "humidity": 69.59,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-31T07:29:43 +04:00",
+    "last-updated-date-time": "2018-08-29T02:06:36 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 2,
+    "sensor-id": 114,
+    "temp-level": 65,
+    "temp-scale": "f",
+    "humidity": 64.12,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-31T07:42:38 +04:00",
+    "last-updated-date-time": "2018-10-24T10:25:23 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 3,
+    "sensor-id": 114,
+    "temp-level": 79,
+    "temp-scale": "f",
+    "humidity": 10.09,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-31T09:34:30 +05:00",
+    "last-updated-date-time": "2018-03-13T01:05:56 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 4,
+    "sensor-id": 114,
+    "temp-level": 56,
+    "temp-scale": "f",
+    "humidity": 10.52,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-14T12:20:52 +05:00",
+    "last-updated-date-time": "2019-01-07T02:21:25 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 5,
+    "sensor-id": 114,
+    "temp-level": 58,
+    "temp-scale": "f",
+    "humidity": 67.67,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-17T10:54:45 +04:00",
+    "last-updated-date-time": "2018-05-10T09:42:22 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 6,
+    "sensor-id": 114,
+    "temp-level": 68,
+    "temp-scale": "f",
+    "humidity": 80.64,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-28T02:29:10 +04:00",
+    "last-updated-date-time": "2018-12-31T06:31:36 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 7,
+    "sensor-id": 114,
+    "temp-level": 70,
+    "temp-scale": "f",
+    "humidity": 53.85,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-09T08:29:16 +04:00",
+    "last-updated-date-time": "2018-09-28T02:56:07 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 8,
+    "sensor-id": 114,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 89.62,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-28T04:21:28 +05:00",
+    "last-updated-date-time": "2018-10-29T07:03:46 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 9,
+    "sensor-id": 114,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 61.7,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-25T04:36:47 +05:00",
+    "last-updated-date-time": "2018-08-28T08:21:25 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 10,
+    "sensor-id": 114,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 4.52,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-13T12:38:09 +05:00",
+    "last-updated-date-time": "2018-12-16T08:51:55 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 11,
+    "sensor-id": 114,
+    "temp-level": 64,
+    "temp-scale": "f",
+    "humidity": 5.24,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-02T09:01:12 +04:00",
+    "last-updated-date-time": "2018-08-02T07:09:18 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 12,
+    "sensor-id": 114,
+    "temp-level": 65,
+    "temp-scale": "f",
+    "humidity": 12.35,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-25T06:32:34 +04:00",
+    "last-updated-date-time": "2018-05-27T02:50:51 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 13,
+    "sensor-id": 114,
+    "temp-level": 65,
+    "temp-scale": "f",
+    "humidity": 15.83,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-20T08:30:31 +05:00",
+    "last-updated-date-time": "2018-11-14T07:06:15 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 14,
+    "sensor-id": 114,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 82.3,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-25T01:37:39 +04:00",
+    "last-updated-date-time": "2018-01-03T12:05:12 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 15,
+    "sensor-id": 114,
+    "temp-level": 72,
+    "temp-scale": "f",
+    "humidity": 35.1,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-01T05:26:08 +05:00",
+    "last-updated-date-time": "2018-04-14T05:00:56 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 16,
+    "sensor-id": 114,
+    "temp-level": 55,
+    "temp-scale": "f",
+    "humidity": 31.91,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-22T04:36:24 +04:00",
+    "last-updated-date-time": "2019-02-21T04:43:22 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 17,
+    "sensor-id": 114,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 70.38,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-13T01:28:54 +04:00",
+    "last-updated-date-time": "2019-02-16T08:22:54 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 18,
+    "sensor-id": 114,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 36,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-25T07:14:47 +04:00",
+    "last-updated-date-time": "2018-12-06T01:42:18 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 19,
+    "sensor-id": 114,
+    "temp-level": 77,
+    "temp-scale": "f",
+    "humidity": 16.42,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-09T07:02:37 +04:00",
+    "last-updated-date-time": "2018-03-05T10:04:25 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 20,
+    "sensor-id": 114,
+    "temp-level": 76,
+    "temp-scale": "f",
+    "humidity": 10.04,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-26T06:16:23 +04:00",
+    "last-updated-date-time": "2019-03-20T08:42:12 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 21,
+    "sensor-id": 114,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 4.46,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-15T11:11:12 +05:00",
+    "last-updated-date-time": "2018-09-12T02:27:14 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 22,
+    "sensor-id": 114,
+    "temp-level": 70,
+    "temp-scale": "f",
+    "humidity": 7.76,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-28T06:36:56 +04:00",
+    "last-updated-date-time": "2018-08-13T10:14:42 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 23,
+    "sensor-id": 114,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 43.5,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-06T03:25:12 +04:00",
+    "last-updated-date-time": "2018-09-28T03:52:29 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 24,
+    "sensor-id": 114,
+    "temp-level": 79,
+    "temp-scale": "f",
+    "humidity": 17.61,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-02T02:05:04 +05:00",
+    "last-updated-date-time": "2018-07-06T08:47:07 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 25,
+    "sensor-id": 114,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 86.56,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-23T06:04:35 +04:00",
+    "last-updated-date-time": "2018-10-14T07:22:26 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 26,
+    "sensor-id": 114,
+    "temp-level": 65,
+    "temp-scale": "f",
+    "humidity": 42.09,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-28T10:08:40 +04:00",
+    "last-updated-date-time": "2018-12-20T12:55:22 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 27,
+    "sensor-id": 114,
+    "temp-level": 70,
+    "temp-scale": "f",
+    "humidity": 0.18,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-02-08T07:52:43 +05:00",
+    "last-updated-date-time": "2018-09-29T11:40:50 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 28,
+    "sensor-id": 114,
+    "temp-level": 62,
+    "temp-scale": "f",
+    "humidity": 50.28,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-17T05:15:36 +05:00",
+    "last-updated-date-time": "2019-01-11T02:51:27 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 29,
+    "sensor-id": 114,
+    "temp-level": 79,
+    "temp-scale": "f",
+    "humidity": 99.55,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-12T04:10:06 +04:00",
+    "last-updated-date-time": "2018-09-20T02:16:00 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 30,
+    "sensor-id": 118,
+    "temp-level": 58,
+    "temp-scale": "f",
+    "humidity": 96.87,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-03T12:02:59 +04:00",
+    "last-updated-date-time": "2018-06-01T02:59:43 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 31,
+    "sensor-id": 118,
+    "temp-level": 70,
+    "temp-scale": "f",
+    "humidity": 83.69,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-31T05:52:52 +04:00",
+    "last-updated-date-time": "2018-07-23T05:17:53 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 32,
+    "sensor-id": 118,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 70.04,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-10-26T04:05:11 +04:00",
+    "last-updated-date-time": "2018-03-23T09:37:47 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 33,
+    "sensor-id": 118,
+    "temp-level": 71,
+    "temp-scale": "f",
+    "humidity": 79.91,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-27T11:13:47 +04:00",
+    "last-updated-date-time": "2018-10-19T06:55:53 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 34,
+    "sensor-id": 118,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 91.27,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-05T03:33:29 +05:00",
+    "last-updated-date-time": "2018-03-07T09:22:06 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 35,
+    "sensor-id": 118,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 2.65,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-25T08:51:20 +04:00",
+    "last-updated-date-time": "2018-04-01T12:35:21 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 36,
+    "sensor-id": 118,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 50.89,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-10T04:53:49 +04:00",
+    "last-updated-date-time": "2018-07-13T10:50:21 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 37,
+    "sensor-id": 118,
+    "temp-level": 55,
+    "temp-scale": "f",
+    "humidity": 16.65,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-13T07:55:43 +04:00",
+    "last-updated-date-time": "2019-01-06T09:51:17 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 38,
+    "sensor-id": 118,
+    "temp-level": 62,
+    "temp-scale": "f",
+    "humidity": 61,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-26T05:48:08 +04:00",
+    "last-updated-date-time": "2019-01-12T12:29:21 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 39,
+    "sensor-id": 118,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 5.89,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-02T02:05:40 +04:00",
+    "last-updated-date-time": "2018-12-02T11:03:08 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 40,
+    "sensor-id": 118,
+    "temp-level": 74,
+    "temp-scale": "f",
+    "humidity": 1.86,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-18T08:53:51 +04:00",
+    "last-updated-date-time": "2018-05-18T12:52:26 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 41,
+    "sensor-id": 118,
+    "temp-level": 65,
+    "temp-scale": "f",
+    "humidity": 74.89,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-05T01:30:51 +05:00",
+    "last-updated-date-time": "2018-06-25T04:24:12 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 42,
+    "sensor-id": 118,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 27.52,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-17T09:43:25 +05:00",
+    "last-updated-date-time": "2019-03-31T02:33:03 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 43,
+    "sensor-id": 118,
+    "temp-level": 73,
+    "temp-scale": "f",
+    "humidity": 41.35,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-09-07T12:13:44 +04:00",
+    "last-updated-date-time": "2018-10-18T06:01:09 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 44,
+    "sensor-id": 118,
+    "temp-level": 71,
+    "temp-scale": "f",
+    "humidity": 0.14,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-05T08:57:45 +04:00",
+    "last-updated-date-time": "2018-06-20T08:59:16 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 45,
+    "sensor-id": 118,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 2.56,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-15T10:55:56 +04:00",
+    "last-updated-date-time": "2018-01-27T06:57:58 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 46,
+    "sensor-id": 118,
+    "temp-level": 68,
+    "temp-scale": "f",
+    "humidity": 91.11,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-15T03:08:55 +04:00",
+    "last-updated-date-time": "2019-03-28T11:02:21 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 47,
+    "sensor-id": 118,
+    "temp-level": 58,
+    "temp-scale": "f",
+    "humidity": 39.23,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-19T08:15:23 +04:00",
+    "last-updated-date-time": "2018-06-10T08:31:58 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 48,
+    "sensor-id": 118,
+    "temp-level": 56,
+    "temp-scale": "f",
+    "humidity": 62.89,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-29T04:23:37 +04:00",
+    "last-updated-date-time": "2018-06-27T03:16:25 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 49,
+    "sensor-id": 118,
+    "temp-level": 57,
+    "temp-scale": "f",
+    "humidity": 45.17,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-24T08:34:35 +04:00",
+    "last-updated-date-time": "2019-02-21T09:17:20 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 50,
+    "sensor-id": 118,
+    "temp-level": 72,
+    "temp-scale": "f",
+    "humidity": 56.13,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-05T05:01:37 +04:00",
+    "last-updated-date-time": "2018-11-19T02:51:56 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 51,
+    "sensor-id": 118,
+    "temp-level": 74,
+    "temp-scale": "f",
+    "humidity": 36.78,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-01T07:20:17 +05:00",
+    "last-updated-date-time": "2018-08-26T03:43:22 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 52,
+    "sensor-id": 118,
+    "temp-level": 79,
+    "temp-scale": "f",
+    "humidity": 5.29,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-01T10:08:58 +04:00",
+    "last-updated-date-time": "2018-10-30T02:29:11 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 53,
+    "sensor-id": 118,
+    "temp-level": 67,
+    "temp-scale": "f",
+    "humidity": 15.63,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-16T05:02:44 +04:00",
+    "last-updated-date-time": "2018-08-17T03:01:55 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 54,
+    "sensor-id": 118,
+    "temp-level": 62,
+    "temp-scale": "f",
+    "humidity": 13.13,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-08T05:58:14 +05:00",
+    "last-updated-date-time": "2018-06-16T05:28:14 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 55,
+    "sensor-id": 118,
+    "temp-level": 69,
+    "temp-scale": "f",
+    "humidity": 70.7,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-16T02:54:29 +04:00",
+    "last-updated-date-time": "2018-08-25T05:51:39 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 56,
+    "sensor-id": 118,
+    "temp-level": 71,
+    "temp-scale": "f",
+    "humidity": 96.47,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-25T08:23:45 +04:00",
+    "last-updated-date-time": "2019-01-01T01:27:16 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 57,
+    "sensor-id": 118,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 77.65,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-02-10T11:42:18 +05:00",
+    "last-updated-date-time": "2018-04-07T05:15:10 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 58,
+    "sensor-id": 118,
+    "temp-level": 57,
+    "temp-scale": "f",
+    "humidity": 68.99,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-18T06:43:31 +04:00",
+    "last-updated-date-time": "2018-12-18T02:08:15 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 59,
+    "sensor-id": 118,
+    "temp-level": 79,
+    "temp-scale": "f",
+    "humidity": 51.49,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-08T05:22:39 +05:00",
+    "last-updated-date-time": "2018-02-24T04:01:34 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 60,
+    "sensor-id": 119,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 7.28,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-14T10:50:17 +04:00",
+    "last-updated-date-time": "2018-11-05T04:06:09 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 61,
+    "sensor-id": 119,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 27,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-04-05T05:32:58 +04:00",
+    "last-updated-date-time": "2018-10-28T12:27:31 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 62,
+    "sensor-id": 119,
+    "temp-level": 77,
+    "temp-scale": "f",
+    "humidity": 93.59,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-02T06:16:03 +04:00",
+    "last-updated-date-time": "2018-12-12T11:19:15 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 63,
+    "sensor-id": 119,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 63.59,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-18T06:06:31 +05:00",
+    "last-updated-date-time": "2018-02-21T04:44:55 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 64,
+    "sensor-id": 119,
+    "temp-level": 71,
+    "temp-scale": "f",
+    "humidity": 91,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-21T07:54:03 +04:00",
+    "last-updated-date-time": "2018-08-01T07:34:22 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 65,
+    "sensor-id": 119,
+    "temp-level": 76,
+    "temp-scale": "f",
+    "humidity": 61.73,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-26T12:12:41 +04:00",
+    "last-updated-date-time": "2018-11-14T12:44:02 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 66,
+    "sensor-id": 119,
+    "temp-level": 55,
+    "temp-scale": "f",
+    "humidity": 22.19,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-02-17T01:44:36 +05:00",
+    "last-updated-date-time": "2018-07-31T10:01:33 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 67,
+    "sensor-id": 119,
+    "temp-level": 64,
+    "temp-scale": "f",
+    "humidity": 60.99,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-09-20T01:14:13 +04:00",
+    "last-updated-date-time": "2018-11-22T04:31:25 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 68,
+    "sensor-id": 119,
+    "temp-level": 71,
+    "temp-scale": "f",
+    "humidity": 40,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-10T08:45:50 +04:00",
+    "last-updated-date-time": "2019-01-06T07:07:07 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 69,
+    "sensor-id": 119,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 41.07,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-02-16T03:24:42 +05:00",
+    "last-updated-date-time": "2018-05-23T12:34:12 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 70,
+    "sensor-id": 119,
+    "temp-level": 56,
+    "temp-scale": "f",
+    "humidity": 86.77,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-27T08:13:23 +04:00",
+    "last-updated-date-time": "2018-11-03T02:28:15 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 71,
+    "sensor-id": 119,
+    "temp-level": 70,
+    "temp-scale": "f",
+    "humidity": 99.42,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-04-06T07:23:59 +04:00",
+    "last-updated-date-time": "2019-01-31T04:22:30 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 72,
+    "sensor-id": 119,
+    "temp-level": 64,
+    "temp-scale": "f",
+    "humidity": 64.01,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-25T03:52:22 +05:00",
+    "last-updated-date-time": "2019-02-12T02:35:22 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 73,
+    "sensor-id": 119,
+    "temp-level": 58,
+    "temp-scale": "f",
+    "humidity": 90.84,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-03T05:12:43 +04:00",
+    "last-updated-date-time": "2018-08-22T10:48:49 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 74,
+    "sensor-id": 119,
+    "temp-level": 72,
+    "temp-scale": "f",
+    "humidity": 65.86,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-02-10T01:25:30 +05:00",
+    "last-updated-date-time": "2018-05-02T10:01:46 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 75,
+    "sensor-id": 119,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 98.93,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-30T08:18:35 +04:00",
+    "last-updated-date-time": "2019-01-25T05:50:15 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 76,
+    "sensor-id": 119,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 52.74,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-09-01T08:11:19 +04:00",
+    "last-updated-date-time": "2018-08-30T06:57:24 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 77,
+    "sensor-id": 119,
+    "temp-level": 58,
+    "temp-scale": "f",
+    "humidity": 19.21,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-24T06:43:57 +05:00",
+    "last-updated-date-time": "2018-05-26T03:17:14 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 78,
+    "sensor-id": 119,
+    "temp-level": 79,
+    "temp-scale": "f",
+    "humidity": 21.99,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-11T10:27:51 +05:00",
+    "last-updated-date-time": "2018-03-09T10:02:11 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 79,
+    "sensor-id": 119,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 36.67,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-03T11:43:04 +04:00",
+    "last-updated-date-time": "2018-12-19T03:53:22 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 80,
+    "sensor-id": 119,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 58.98,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-20T01:28:11 +05:00",
+    "last-updated-date-time": "2018-09-14T09:23:36 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 81,
+    "sensor-id": 119,
+    "temp-level": 65,
+    "temp-scale": "f",
+    "humidity": 62.72,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-31T06:51:31 +05:00",
+    "last-updated-date-time": "2018-12-08T10:49:55 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 82,
+    "sensor-id": 119,
+    "temp-level": 74,
+    "temp-scale": "f",
+    "humidity": 92.27,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-13T09:29:47 +05:00",
+    "last-updated-date-time": "2019-03-21T03:21:27 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 83,
+    "sensor-id": 119,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 38.78,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-07T05:32:44 +05:00",
+    "last-updated-date-time": "2018-02-21T04:33:25 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 84,
+    "sensor-id": 119,
+    "temp-level": 77,
+    "temp-scale": "f",
+    "humidity": 91.4,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-30T12:22:12 +05:00",
+    "last-updated-date-time": "2018-02-26T09:41:52 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 85,
+    "sensor-id": 119,
+    "temp-level": 76,
+    "temp-scale": "f",
+    "humidity": 50.01,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-01T03:51:32 +04:00",
+    "last-updated-date-time": "2018-12-31T04:52:53 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 86,
+    "sensor-id": 119,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 32.65,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-29T06:12:37 +05:00",
+    "last-updated-date-time": "2019-01-06T09:01:03 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 87,
+    "sensor-id": 119,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 34.22,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-15T07:18:43 +05:00",
+    "last-updated-date-time": "2019-02-13T09:13:51 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 88,
+    "sensor-id": 119,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 96.62,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-09T08:20:30 +05:00",
+    "last-updated-date-time": "2018-02-13T04:20:23 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 89,
+    "sensor-id": 119,
+    "temp-level": 58,
+    "temp-scale": "f",
+    "humidity": 91.66,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-22T10:31:37 +04:00",
+    "last-updated-date-time": "2019-02-18T10:04:56 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 90,
+    "sensor-id": 214,
+    "temp-level": 55,
+    "temp-scale": "f",
+    "humidity": 85.56,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-22T06:07:04 +05:00",
+    "last-updated-date-time": "2019-02-19T03:15:42 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 91,
+    "sensor-id": 214,
+    "temp-level": 68,
+    "temp-scale": "f",
+    "humidity": 28.94,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-24T06:51:20 +05:00",
+    "last-updated-date-time": "2018-04-12T05:48:21 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 92,
+    "sensor-id": 214,
+    "temp-level": 71,
+    "temp-scale": "f",
+    "humidity": 18.53,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-10T10:59:56 +04:00",
+    "last-updated-date-time": "2018-09-16T06:51:39 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 93,
+    "sensor-id": 214,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 70.31,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-04T03:12:49 +04:00",
+    "last-updated-date-time": "2019-03-27T01:08:04 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 94,
+    "sensor-id": 214,
+    "temp-level": 66,
+    "temp-scale": "f",
+    "humidity": 2.32,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-03T08:32:22 +05:00",
+    "last-updated-date-time": "2018-11-23T11:18:11 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 95,
+    "sensor-id": 214,
+    "temp-level": 69,
+    "temp-scale": "f",
+    "humidity": 20.98,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-19T10:42:15 +05:00",
+    "last-updated-date-time": "2019-01-30T10:42:07 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 96,
+    "sensor-id": 214,
+    "temp-level": 55,
+    "temp-scale": "f",
+    "humidity": 73.04,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-21T09:14:52 +05:00",
+    "last-updated-date-time": "2019-01-03T01:14:20 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 97,
+    "sensor-id": 214,
+    "temp-level": 57,
+    "temp-scale": "f",
+    "humidity": 66.46,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-05T08:44:06 +05:00",
+    "last-updated-date-time": "2018-06-21T03:02:05 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 98,
+    "sensor-id": 214,
+    "temp-level": 66,
+    "temp-scale": "f",
+    "humidity": 65.29,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-04T08:27:40 +05:00",
+    "last-updated-date-time": "2019-03-28T02:14:26 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 99,
+    "sensor-id": 214,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 11.26,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-10-06T07:37:10 +04:00",
+    "last-updated-date-time": "2018-07-26T11:51:44 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 100,
+    "sensor-id": 214,
+    "temp-level": 72,
+    "temp-scale": "f",
+    "humidity": 30.73,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-13T01:36:06 +05:00",
+    "last-updated-date-time": "2018-12-22T12:56:38 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 101,
+    "sensor-id": 214,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 29.54,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-26T06:01:07 +04:00",
+    "last-updated-date-time": "2018-05-23T01:19:06 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 102,
+    "sensor-id": 214,
+    "temp-level": 64,
+    "temp-scale": "f",
+    "humidity": 80.99,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-04T03:12:37 +05:00",
+    "last-updated-date-time": "2018-06-06T12:57:18 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 103,
+    "sensor-id": 214,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 24.47,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-20T04:22:03 +05:00",
+    "last-updated-date-time": "2019-02-28T05:30:23 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 104,
+    "sensor-id": 214,
+    "temp-level": 73,
+    "temp-scale": "f",
+    "humidity": 73.16,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-10-20T05:45:56 +04:00",
+    "last-updated-date-time": "2018-12-17T02:15:02 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 105,
+    "sensor-id": 214,
+    "temp-level": 66,
+    "temp-scale": "f",
+    "humidity": 57.87,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-11T04:24:37 +04:00",
+    "last-updated-date-time": "2018-11-10T02:24:17 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 106,
+    "sensor-id": 214,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 2.76,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-26T05:21:10 +04:00",
+    "last-updated-date-time": "2018-09-11T10:29:31 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 107,
+    "sensor-id": 214,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 23.45,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-25T02:33:29 +04:00",
+    "last-updated-date-time": "2018-03-24T05:21:42 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 108,
+    "sensor-id": 214,
+    "temp-level": 75,
+    "temp-scale": "f",
+    "humidity": 80.94,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-01-08T02:33:44 +05:00",
+    "last-updated-date-time": "2019-01-20T03:57:43 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 109,
+    "sensor-id": 214,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 58.11,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-21T10:23:32 +05:00",
+    "last-updated-date-time": "2018-03-30T10:20:44 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 110,
+    "sensor-id": 214,
+    "temp-level": 64,
+    "temp-scale": "f",
+    "humidity": 79.79,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-10T07:34:09 +04:00",
+    "last-updated-date-time": "2019-03-17T10:27:35 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 111,
+    "sensor-id": 214,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 19.46,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-18T05:19:41 +05:00",
+    "last-updated-date-time": "2018-12-13T12:42:45 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 112,
+    "sensor-id": 214,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 90.9,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-21T02:47:54 +04:00",
+    "last-updated-date-time": "2018-11-22T01:22:12 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 113,
+    "sensor-id": 214,
+    "temp-level": 75,
+    "temp-scale": "f",
+    "humidity": 76.45,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-14T08:02:11 +04:00",
+    "last-updated-date-time": "2018-01-04T04:40:01 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 114,
+    "sensor-id": 214,
+    "temp-level": 76,
+    "temp-scale": "f",
+    "humidity": 28.43,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-14T10:03:30 +04:00",
+    "last-updated-date-time": "2019-03-18T06:53:24 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 115,
+    "sensor-id": 214,
+    "temp-level": 65,
+    "temp-scale": "f",
+    "humidity": 2.32,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-21T08:22:24 +05:00",
+    "last-updated-date-time": "2019-01-17T07:34:11 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 116,
+    "sensor-id": 214,
+    "temp-level": 56,
+    "temp-scale": "f",
+    "humidity": 46.23,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-10-08T12:39:32 +04:00",
+    "last-updated-date-time": "2018-03-01T05:20:24 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 117,
+    "sensor-id": 214,
+    "temp-level": 62,
+    "temp-scale": "f",
+    "humidity": 6.83,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-28T03:41:29 +05:00",
+    "last-updated-date-time": "2018-07-22T08:41:52 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 118,
+    "sensor-id": 214,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 27.24,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-22T09:35:17 +05:00",
+    "last-updated-date-time": "2018-06-26T04:48:00 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 119,
+    "sensor-id": 214,
+    "temp-level": 69,
+    "temp-scale": "f",
+    "humidity": 53.43,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-23T10:30:29 +05:00",
+    "last-updated-date-time": "2018-07-26T03:07:16 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 120,
+    "sensor-id": 218,
+    "temp-level": 73,
+    "temp-scale": "f",
+    "humidity": 65.74,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-13T08:26:41 +05:00",
+    "last-updated-date-time": "2018-12-20T10:22:15 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 121,
+    "sensor-id": 218,
+    "temp-level": 62,
+    "temp-scale": "f",
+    "humidity": 55.53,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-10T02:33:10 +04:00",
+    "last-updated-date-time": "2018-02-26T03:20:01 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 122,
+    "sensor-id": 218,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 17.18,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-27T07:46:09 +05:00",
+    "last-updated-date-time": "2018-06-01T07:06:05 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 123,
+    "sensor-id": 218,
+    "temp-level": 55,
+    "temp-scale": "f",
+    "humidity": 97.71,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-09-24T08:55:49 +04:00",
+    "last-updated-date-time": "2019-02-28T07:44:07 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 124,
+    "sensor-id": 218,
+    "temp-level": 63,
+    "temp-scale": "f",
+    "humidity": 98.7,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-27T11:22:14 +04:00",
+    "last-updated-date-time": "2018-03-29T07:41:57 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 125,
+    "sensor-id": 218,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 75.35,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-25T01:54:08 +04:00",
+    "last-updated-date-time": "2018-03-28T11:50:45 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 126,
+    "sensor-id": 218,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 14.47,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-09-06T11:45:08 +04:00",
+    "last-updated-date-time": "2018-01-23T06:30:12 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 127,
+    "sensor-id": 218,
+    "temp-level": 68,
+    "temp-scale": "f",
+    "humidity": 66.91,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-09T02:20:19 +05:00",
+    "last-updated-date-time": "2018-10-02T02:08:42 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 128,
+    "sensor-id": 218,
+    "temp-level": 72,
+    "temp-scale": "f",
+    "humidity": 32.31,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-02-09T06:48:04 +05:00",
+    "last-updated-date-time": "2018-08-03T12:10:22 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 129,
+    "sensor-id": 218,
+    "temp-level": 77,
+    "temp-scale": "f",
+    "humidity": 99.11,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-19T04:19:13 +04:00",
+    "last-updated-date-time": "2018-01-12T02:40:18 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 130,
+    "sensor-id": 218,
+    "temp-level": 71,
+    "temp-scale": "f",
+    "humidity": 37.3,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-03-09T06:54:19 +05:00",
+    "last-updated-date-time": "2018-04-21T06:59:38 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 131,
+    "sensor-id": 218,
+    "temp-level": 62,
+    "temp-scale": "f",
+    "humidity": 99.46,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-07-15T08:45:07 +04:00",
+    "last-updated-date-time": "2018-08-12T02:19:16 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 132,
+    "sensor-id": 218,
+    "temp-level": 64,
+    "temp-scale": "f",
+    "humidity": 70.78,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-08-24T09:27:59 +04:00",
+    "last-updated-date-time": "2018-11-27T08:10:47 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 133,
+    "sensor-id": 218,
+    "temp-level": 58,
+    "temp-scale": "f",
+    "humidity": 84.82,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-02T09:30:41 +04:00",
+    "last-updated-date-time": "2018-01-06T03:37:15 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 134,
+    "sensor-id": 218,
+    "temp-level": 79,
+    "temp-scale": "f",
+    "humidity": 11.83,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-04T10:14:36 +04:00",
+    "last-updated-date-time": "2018-04-18T06:03:26 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 135,
+    "sensor-id": 218,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 8.26,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-31T03:40:49 +04:00",
+    "last-updated-date-time": "2018-06-02T11:20:37 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 136,
+    "sensor-id": 218,
+    "temp-level": 75,
+    "temp-scale": "f",
+    "humidity": 21.31,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-23T01:41:08 +05:00",
+    "last-updated-date-time": "2018-12-10T08:30:37 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 137,
+    "sensor-id": 218,
+    "temp-level": 70,
+    "temp-scale": "f",
+    "humidity": 96.79,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-01-02T02:14:54 +05:00",
+    "last-updated-date-time": "2018-07-21T05:07:49 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 138,
+    "sensor-id": 218,
+    "temp-level": 80,
+    "temp-scale": "f",
+    "humidity": 70.82,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-29T11:49:05 +05:00",
+    "last-updated-date-time": "2018-07-18T02:43:03 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 139,
+    "sensor-id": 218,
+    "temp-level": 68,
+    "temp-scale": "f",
+    "humidity": 50.72,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-04T12:09:57 +04:00",
+    "last-updated-date-time": "2019-02-07T04:10:19 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 140,
+    "sensor-id": 218,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 85.59,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-05T01:11:16 +05:00",
+    "last-updated-date-time": "2018-05-23T10:54:36 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 141,
+    "sensor-id": 218,
+    "temp-level": 78,
+    "temp-scale": "f",
+    "humidity": 90.96,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-06-28T02:02:29 +04:00",
+    "last-updated-date-time": "2018-05-26T07:50:48 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 142,
+    "sensor-id": 218,
+    "temp-level": 61,
+    "temp-scale": "f",
+    "humidity": 77.36,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-03-25T07:45:35 +04:00",
+    "last-updated-date-time": "2019-03-26T04:05:25 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 143,
+    "sensor-id": 218,
+    "temp-level": 60,
+    "temp-scale": "f",
+    "humidity": 17.44,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-10-24T06:06:40 +04:00",
+    "last-updated-date-time": "2018-01-19T01:17:40 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 144,
+    "sensor-id": 218,
+    "temp-level": 75,
+    "temp-scale": "f",
+    "humidity": 99.85,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-11-20T01:46:57 +05:00",
+    "last-updated-date-time": "2018-04-16T05:25:28 +04:00"
+  },
+  {
+    "temperature-humidity-reading-id": 145,
+    "sensor-id": 218,
+    "temp-level": 67,
+    "temp-scale": "f",
+    "humidity": 84.3,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-10T12:37:36 +04:00",
+    "last-updated-date-time": "2019-01-06T06:58:00 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 146,
+    "sensor-id": 218,
+    "temp-level": 56,
+    "temp-scale": "f",
+    "humidity": 11.72,
+    "humidity-units": "percent",
+    "creation-date-time": "2019-04-06T10:13:51 +04:00",
+    "last-updated-date-time": "2018-01-28T08:42:25 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 147,
+    "sensor-id": 218,
+    "temp-level": 73,
+    "temp-scale": "f",
+    "humidity": 82.39,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-12-16T01:43:32 +05:00",
+    "last-updated-date-time": "2018-02-16T10:27:25 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 148,
+    "sensor-id": 218,
+    "temp-level": 69,
+    "temp-scale": "f",
+    "humidity": 72.03,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-04-10T08:32:55 +04:00",
+    "last-updated-date-time": "2018-02-15T01:17:47 +05:00"
+  },
+  {
+    "temperature-humidity-reading-id": 149,
+    "sensor-id": 218,
+    "temp-level": 59,
+    "temp-scale": "f",
+    "humidity": 64.94,
+    "humidity-units": "percent",
+    "creation-date-time": "2018-05-14T08:06:06 +04:00",
+    "last-updated-date-time": "2018-02-09T04:17:14 +05:00"
+  }]

@@ -1,0 +1,482 @@
+[
+    {
+        "soil-moisture-reading-id": 1,
+        "sensor-id": 115,
+        "moisture-level": 37.86,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-02-27T11:24:39 +05:00",
+        "last-updated-date-time": "2018-02-13T02:27:28 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 2,
+        "sensor-id": 115,
+        "moisture-level": 75.47,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-03-05T01:32:12 +05:00",
+        "last-updated-date-time": "2018-08-11T11:56:59 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 3,
+        "sensor-id": 115,
+        "moisture-level": 37.11,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-01-03T06:33:19 +05:00",
+        "last-updated-date-time": "2018-05-22T11:06:11 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 4,
+        "sensor-id": 115,
+        "moisture-level": 32.93,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-07-11T01:23:24 +04:00",
+        "last-updated-date-time": "2018-04-07T05:10:43 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 5,
+        "sensor-id": 115,
+        "moisture-level": 21.3,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-07-25T03:27:13 +04:00",
+        "last-updated-date-time": "2018-08-23T01:49:51 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 6,
+        "sensor-id": 115,
+        "moisture-level": 9.06,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-09-18T12:09:48 +04:00",
+        "last-updated-date-time": "2018-01-05T03:17:34 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 7,
+        "sensor-id": 115,
+        "moisture-level": 16.04,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-01-11T09:48:33 +05:00",
+        "last-updated-date-time": "2019-02-14T06:17:55 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 8,
+        "sensor-id": 115,
+        "moisture-level": 87.43,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-04-05T11:51:21 +04:00",
+        "last-updated-date-time": "2019-03-05T03:05:46 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 9,
+        "sensor-id": 115,
+        "moisture-level": 3.14,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-09-25T03:57:01 +04:00",
+        "last-updated-date-time": "2018-04-27T04:09:53 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 10,
+        "sensor-id": 115,
+        "moisture-level": 79.87,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-02-25T12:41:56 +05:00",
+        "last-updated-date-time": "2018-06-14T05:18:40 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 11,
+        "sensor-id": 115,
+        "moisture-level": 24.58,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-11-26T09:15:52 +05:00",
+        "last-updated-date-time": "2019-01-02T02:42:47 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 12,
+        "sensor-id": 115,
+        "moisture-level": 78.65,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-03-03T04:28:43 +05:00",
+        "last-updated-date-time": "2018-04-15T06:05:56 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 13,
+        "sensor-id": 115,
+        "moisture-level": 3.05,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-06-30T01:05:05 +04:00",
+        "last-updated-date-time": "2018-10-02T01:31:36 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 14,
+        "sensor-id": 115,
+        "moisture-level": 69.13,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-06-22T10:40:54 +04:00",
+        "last-updated-date-time": "2018-05-31T10:40:25 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 15,
+        "sensor-id": 115,
+        "moisture-level": 28.98,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-06-27T11:33:35 +04:00",
+        "last-updated-date-time": "2018-03-20T01:40:05 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 16,
+        "sensor-id": 115,
+        "moisture-level": 71.86,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-06-01T09:25:09 +04:00",
+        "last-updated-date-time": "2018-08-17T11:19:43 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 17,
+        "sensor-id": 115,
+        "moisture-level": 13.28,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-02-06T04:43:41 +05:00",
+        "last-updated-date-time": "2018-01-26T05:21:48 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 18,
+        "sensor-id": 115,
+        "moisture-level": 50.83,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-04-04T06:07:13 +04:00",
+        "last-updated-date-time": "2018-05-20T09:27:50 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 19,
+        "sensor-id": 115,
+        "moisture-level": 39.98,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-10-17T07:52:54 +04:00",
+        "last-updated-date-time": "2018-06-20T12:49:14 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 20,
+        "sensor-id": 115,
+        "moisture-level": 86.41,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-12-03T02:48:58 +05:00",
+        "last-updated-date-time": "2018-01-01T04:06:53 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 21,
+        "sensor-id": 115,
+        "moisture-level": 53.69,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-02-08T12:08:21 +05:00",
+        "last-updated-date-time": "2018-01-29T09:11:00 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 22,
+        "sensor-id": 115,
+        "moisture-level": 31.79,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-04-25T07:17:55 +04:00",
+        "last-updated-date-time": "2018-04-12T08:52:22 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 23,
+        "sensor-id": 115,
+        "moisture-level": 83.92,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-07-10T04:04:42 +04:00",
+        "last-updated-date-time": "2019-03-06T07:56:24 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 24,
+        "sensor-id": 115,
+        "moisture-level": 57.35,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-12-12T08:25:42 +05:00",
+        "last-updated-date-time": "2018-12-27T12:01:37 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 25,
+        "sensor-id": 115,
+        "moisture-level": 53.26,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-01-01T07:49:19 +05:00",
+        "last-updated-date-time": "2018-03-10T04:38:53 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 26,
+        "sensor-id": 115,
+        "moisture-level": 56.49,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-03-11T11:19:48 +04:00",
+        "last-updated-date-time": "2018-08-09T06:46:34 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 27,
+        "sensor-id": 115,
+        "moisture-level": 18.55,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-05-16T10:20:00 +04:00",
+        "last-updated-date-time": "2018-12-20T10:25:42 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 28,
+        "sensor-id": 115,
+        "moisture-level": 85.15,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-03-28T08:45:13 +04:00",
+        "last-updated-date-time": "2018-12-13T02:35:58 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 29,
+        "sensor-id": 115,
+        "moisture-level": 87.73,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-05-13T11:56:07 +04:00",
+        "last-updated-date-time": "2019-02-14T02:26:32 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 30,
+        "sensor-id": 115,
+        "moisture-level": 72.57,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-02-10T06:12:30 +05:00",
+        "last-updated-date-time": "2018-01-02T09:22:00 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 31,
+        "sensor-id": 215,
+        "moisture-level": 48.63,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-03-15T06:12:25 +04:00",
+        "last-updated-date-time": "2018-04-11T07:52:49 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 32,
+        "sensor-id": 215,
+        "moisture-level": 93.61,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-05-18T09:29:31 +04:00",
+        "last-updated-date-time": "2018-10-19T11:27:18 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 33,
+        "sensor-id": 215,
+        "moisture-level": 89.13,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-08-05T12:33:35 +04:00",
+        "last-updated-date-time": "2018-10-23T03:53:48 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 34,
+        "sensor-id": 215,
+        "moisture-level": 17.76,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-06-21T08:33:12 +04:00",
+        "last-updated-date-time": "2018-06-04T04:16:57 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 35,
+        "sensor-id": 215,
+        "moisture-level": 94.94,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-10-09T02:59:49 +04:00",
+        "last-updated-date-time": "2018-10-26T12:54:56 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 36,
+        "sensor-id": 215,
+        "moisture-level": 99.3,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-03-06T03:40:08 +05:00",
+        "last-updated-date-time": "2018-09-09T05:06:24 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 37,
+        "sensor-id": 215,
+        "moisture-level": 64.29,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-07-16T07:56:39 +04:00",
+        "last-updated-date-time": "2018-11-29T02:18:38 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 38,
+        "sensor-id": 215,
+        "moisture-level": 13.31,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-02-19T04:23:18 +05:00",
+        "last-updated-date-time": "2018-07-19T10:52:32 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 39,
+        "sensor-id": 215,
+        "moisture-level": 17.84,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-02-15T01:31:59 +05:00",
+        "last-updated-date-time": "2018-09-18T04:06:21 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 40,
+        "sensor-id": 215,
+        "moisture-level": 98.35,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-06-05T04:11:06 +04:00",
+        "last-updated-date-time": "2018-09-11T10:44:05 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 41,
+        "sensor-id": 215,
+        "moisture-level": 32.23,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-08-02T09:45:08 +04:00",
+        "last-updated-date-time": "2018-01-02T09:22:06 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 42,
+        "sensor-id": 215,
+        "moisture-level": 84.41,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-03-10T10:02:53 +05:00",
+        "last-updated-date-time": "2019-01-13T12:39:17 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 43,
+        "sensor-id": 215,
+        "moisture-level": 38.21,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-03-26T01:58:29 +04:00",
+        "last-updated-date-time": "2018-11-17T03:13:43 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 44,
+        "sensor-id": 215,
+        "moisture-level": 62.65,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-01-20T07:44:36 +05:00",
+        "last-updated-date-time": "2018-09-18T05:11:45 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 45,
+        "sensor-id": 215,
+        "moisture-level": 19.42,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-07-16T09:05:07 +04:00",
+        "last-updated-date-time": "2018-04-04T12:35:58 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 46,
+        "sensor-id": 215,
+        "moisture-level": 18.53,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-12-27T05:15:40 +05:00",
+        "last-updated-date-time": "2018-09-05T09:33:24 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 47,
+        "sensor-id": 215,
+        "moisture-level": 34.5,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-09-11T04:40:48 +04:00",
+        "last-updated-date-time": "2018-01-27T09:50:07 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 48,
+        "sensor-id": 215,
+        "moisture-level": 34.14,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-06-22T09:46:01 +04:00",
+        "last-updated-date-time": "2019-03-31T08:46:37 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 49,
+        "sensor-id": 215,
+        "moisture-level": 81.38,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-01-23T03:49:29 +05:00",
+        "last-updated-date-time": "2018-04-07T02:22:03 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 50,
+        "sensor-id": 215,
+        "moisture-level": 73.8,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-03-06T06:20:47 +05:00",
+        "last-updated-date-time": "2019-02-05T04:22:51 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 51,
+        "sensor-id": 215,
+        "moisture-level": 8.54,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-08-18T02:21:24 +04:00",
+        "last-updated-date-time": "2018-08-20T12:32:28 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 52,
+        "sensor-id": 215,
+        "moisture-level": 5.11,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-10-15T05:14:37 +04:00",
+        "last-updated-date-time": "2019-03-02T09:32:18 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 53,
+        "sensor-id": 215,
+        "moisture-level": 48.13,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-01-10T12:38:55 +05:00",
+        "last-updated-date-time": "2019-04-01T01:44:04 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 54,
+        "sensor-id": 215,
+        "moisture-level": 19.17,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-09-15T06:17:30 +04:00",
+        "last-updated-date-time": "2018-01-21T04:38:48 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 55,
+        "sensor-id": 215,
+        "moisture-level": 51.69,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-07-13T01:56:22 +04:00",
+        "last-updated-date-time": "2018-05-19T11:08:47 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 56,
+        "sensor-id": 215,
+        "moisture-level": 15.34,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-11-28T06:47:03 +05:00",
+        "last-updated-date-time": "2018-06-04T03:15:36 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 57,
+        "sensor-id": 215,
+        "moisture-level": 2.75,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-12-07T06:00:09 +05:00",
+        "last-updated-date-time": "2018-02-08T01:39:21 +05:00"
+      },
+      {
+        "soil-moisture-reading-id": 58,
+        "sensor-id": 215,
+        "moisture-level": 69.85,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-11-14T07:29:55 +05:00",
+        "last-updated-date-time": "2018-08-10T12:14:45 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 59,
+        "sensor-id": 215,
+        "moisture-level": 98.06,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2019-01-31T11:05:13 +05:00",
+        "last-updated-date-time": "2018-09-06T09:10:14 +04:00"
+      },
+      {
+        "soil-moisture-reading-id": 60,
+        "sensor-id": 215,
+        "moisture-level": 95.17,
+        "moisture-level-units": "percent",
+        "creation-date-time": "2018-12-27T10:09:13 +05:00",
+        "last-updated-date-time": "2018-10-26T02:16:32 +04:00"
+      }
+]

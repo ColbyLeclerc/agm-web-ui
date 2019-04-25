@@ -1,0 +1,42 @@
+(from https://www.json-generator.com/)
+
+temp-humid:
+[
+  '{{repeat(30)}}',
+  {
+    'temperature-humidity-reading-id': '{{index(120)}}',
+    'sensor-id': '218',
+    'temp-level': '{{integer(55,80)}}',
+    'temp-scale': 'f',
+    'humidity': '{{floating(0, 100, 2, "00.00")}}',
+    'humidity-units': 'percent',
+    'creation-date-time': '{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+    'last-updated-date-time': '{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]
+
+soil-moist:
+[
+  '{{repeat(30)}}',
+  {
+    'soil-moisture-reading-id': '{{index(1)}}',
+    'sensor-id': '115',
+    'moisture-level': '{{floating(0, 100, 2, "00.00")}}',
+    'moisture-level-units': 'percent',
+    'creation-date-time': '{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+    'last-updated-date-time': '{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]
+
+soil-temp:
+[
+  '{{repeat(30)}}',
+  {
+    'soil-temperature-reading-id': '{{index(151)}}',
+    'sensor-id': '226',
+    'temp-level': '{{integer(55,83)}}',
+    'temp-scale': 'f',
+    'creation-date-time': '{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+    'last-updated-date-time': '{{date(new Date(2018, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]

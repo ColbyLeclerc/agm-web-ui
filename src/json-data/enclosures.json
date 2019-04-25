@@ -1,0 +1,179 @@
+[{
+    "title": "Tomatos",
+    "location": "Basement",
+    "length": 12,
+    "width": 12,
+    "height": 12,
+    "enclosure-id": 49,
+    "dimension-units": "meters",
+    "created-date-time": "2019-04-06T13:17:17.906",
+    "last-updated-date-time": "2019-04-06T13:17:17.906",
+    "plants": [{
+        "name": "Tomato 1",
+        "yield": 0,
+        "plant-id": 1,
+        "pot-size": 5,
+        "pot-size-units": "gallons",
+        "created-date-time": "2019-03-24T10:58:25.898",
+        "last-updated-date-time": "2019-03-24T10:58:25.898",
+        "sensors": [{
+            "sensor-id": 114,
+            "sensor-type": "temperature-humidity",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-24T11:02:04.042",
+            "last-updated-date-time": "2019-03-24T11:02:04.042"
+          },
+          {
+            "sensor-id": 115,
+            "sensor-type": "soil-moisture",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-31T17:35:29.526",
+            "last-updated-date-time": "2019-03-31T17:35:29.526"
+          }
+        ]
+      },
+      {
+        "name": "Tomato 2",
+        "yield": 0,
+        "plant-id": 2,
+        "pot-size": 5,
+        "pot-size-units": "gallons",
+        "created-date-time": "2019-03-24T10:58:25.898",
+        "last-updated-date-time": "2019-03-24T10:58:25.898",
+        "sensors": [{
+            "sensor-id": 116,
+            "sensor-type": "soil-temperature",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-24T11:02:04.042",
+            "last-updated-date-time": "2019-03-24T11:02:04.042"
+          },
+          {
+            "sensor-id": 117,
+            "sensor-type": "soil-temperature",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-31T17:35:29.526",
+            "last-updated-date-time": "2019-03-31T17:35:29.526"
+          }
+        ]
+      }
+    ],
+    "sensors": [{
+        "sensor-id": 118,
+        "sensor-type": "temperature-humidity",
+        "is-plant": false,
+        "is-enclosure": true,
+        "created-date-time": "2019-03-24T11:02:04.042",
+        "last-updated-date-time": "2019-03-24T11:02:04.042"
+      },
+      {
+        "sensor-id": 119,
+        "sensor-type": "temperature-humidity",
+        "is-plant": false,
+        "is-enclosure": true,
+        "created-date-time": "2019-03-31T17:35:29.526",
+        "last-updated-date-time": "2019-03-31T17:35:29.526"
+      }
+    ]
+  },
+  {
+    "title": "Peppers",
+    "location": "Porch",
+    "length": 12,
+    "width": 12,
+    "height": 9,
+    "enclosure-id": 50,
+    "dimension-units": "meters",
+    "created-date-time": "2019-04-06T13:17:17.906",
+    "last-updated-date-time": "2019-04-06T13:17:17.906",
+    "plants": [{
+        "name": "Pepper 1",
+        "yield": 0,
+        "plant-id": 21,
+        "pot-size": 5,
+        "pot-size-units": "gallons",
+        "created-date-time": "2019-03-24T10:58:25.898",
+        "last-updated-date-time": "2019-03-24T10:58:25.898",
+        "sensors": [{
+            "sensor-id": 214,
+            "sensor-type": "temperature-humidity",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-24T11:02:04.042",
+            "last-updated-date-time": "2019-03-24T11:02:04.042"
+          },
+          {
+            "sensor-id": 215,
+            "sensor-type": "soil-moisture",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-31T17:35:29.526",
+            "last-updated-date-time": "2019-03-31T17:35:29.526"
+          },
+          {
+            "sensor-id": 225,
+            "sensor-type": "soil-temperature",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-31T17:35:29.526",
+            "last-updated-date-time": "2019-03-31T17:35:29.526"
+          }
+        ]
+      },
+      {
+        "name": "Pepper 2",
+        "yield": 0,
+        "plant-id": 22,
+        "pot-size": 5,
+        "pot-size-units": "gallons",
+        "created-date-time": "2019-03-24T10:58:25.898",
+        "last-updated-date-time": "2019-03-24T10:58:25.898",
+        "sensors": [{
+            "sensor-id": 216,
+            "sensor-type": "soil-temperature",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-24T11:02:04.042",
+            "last-updated-date-time": "2019-03-24T11:02:04.042"
+          },
+          {
+            "sensor-id": 217,
+            "sensor-type": "soil-temperature",
+            "is-plant": true,
+            "is-enclosure": false,
+            "created-date-time": "2019-03-31T17:35:29.526",
+            "last-updated-date-time": "2019-03-31T17:35:29.526"
+          }
+        ]
+      },
+      {
+        "name": "Pepper 3",
+        "yield": 0,
+        "plant-id": 222,
+        "pot-size": 5,
+        "pot-size-units": "gallons",
+        "created-date-time": "2019-03-24T10:58:25.898",
+        "last-updated-date-time": "2019-03-24T10:58:25.898",
+        "sensors": [{
+          "sensor-id": 226,
+          "sensor-type": "soil-temperature",
+          "is-plant": true,
+          "is-enclosure": false,
+          "created-date-time": "2019-03-24T11:02:04.042",
+          "last-updated-date-time": "2019-03-24T11:02:04.042"
+        }]
+      }
+    ],
+    "sensors": [{
+      "sensor-id": 218,
+      "sensor-type": "temperature-humidity",
+      "is-plant": false,
+      "is-enclosure": true,
+      "created-date-time": "2019-03-24T11:02:04.042",
+      "last-updated-date-time": "2019-03-24T11:02:04.042"
+    }]
+  }
+]

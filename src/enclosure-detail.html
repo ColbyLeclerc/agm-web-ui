@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- TODO change to local call -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Enclosure Detail</title>
+  <style>
+    #loader {
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+      visibility: visible;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background: #fff;
+      z-index: 90000;
+    }
+
+    #loader.fadeOut {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: calc(50% - 20px);
+      left: calc(50% - 20px);
+      background-color: #333;
+      border-radius: 100%;
+      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+      animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0)
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+  </style>
+</head>
+
+<body class="app">
+  <!-- @TOC -->
+  <!-- =================================================== -->
+  <!--
+      + @Page Loader
+      + @App Content
+          - #Left Sidebar
+              > $Sidebar Header
+              > $Sidebar Menu
+
+          - #Main
+              > $Topbar
+              > $App Screen Content
+    -->
+
+  <!-- @Page Loader -->
+  <!-- =================================================== -->
+  <div id='loader'>
+    <div class="spinner"></div>
+  </div>
+  <script>
+    //    let enc/losures;
+    window.addEventListener('load', function load() {
+      const loader = document.getElementById('loader');
+      setTimeout(function () {
+        loader.classList.add('fadeOut');
+      }, 300);
+    });
+
+  </script>
+
+  <!-- @App Content -->
+  <!-- =================================================== -->
+  <div>
+    <!-- #Left Sidebar ==================== -->
+    <div class="sidebar">
+      <div class="sidebar-inner">
+        <!-- ### $Sidebar Header ### -->
+        <div class="sidebar-logo">
+          <div class="peers ai-c fxw-nw">
+            <div class="peer peer-greed">
+              <a class="sidebar-link td-n" href="index.html">
+                <div class="peers ai-c fxw-nw">
+                  <div class="peer">
+                    <!-- <div class="logo">
+                      <img src="assets/static/images/logo.png" alt="">
+                    </div> -->
+                  </div>
+                  <div class="peer peer-greed">
+                    <h5 class="lh-1 mB-0 logo-text" style="padding: 20px;text-align: center;">Advanced Garden Monitor
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="peer">
+              <div class="mobile-toggle sidebar-toggle">
+                <a href="" class="td-n">
+                  <i class="ti-arrow-circle-left"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ### $Sidebar Menu ### -->
+        <ul class="sidebar-menu scrollable pos-r">
+          <li class="nav-item mT-30 active">
+            <a class="sidebar-link" href="index.html">
+              <span class="icon-holder">
+                <i class="c-blue-500 ti-home"></i>
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="forms.html">
+              <span class="icon-holder">
+                <i class="c-light-blue-500 ti-pencil"></i>
+              </span>
+              <span class="title">Plants and Sensors</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- #Main ============================ -->
+    <div class="page-container">
+      <!-- ### $Topbar ### -->
+      <div class="header navbar">
+        <div class="header-container">
+          <ul class="nav-left">
+            <li>
+              <a id='sidebar-toggle' class="sidebar-toggle" href="javascript:void(0);">
+                <i class="ti-menu"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ### $App Screen Content ### 6 -->
+      <main class='main-content bgc-grey-100'>
+        <div id='mainContent'>
+          <div id="graphs" class="row gap-20 masonry pos-r">
+            <div class="masonry-sizer col-md-10 pos-a"></div>
+          </div>
+        </div>
+      </main>
+
+      <!-- ### $App Screen Footer ### -->
+      <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
+        <span>Copyright © 2019 <a href="https://colby.io" target='_blank' title="Colorlib">CJ Software</a>.
+          All rights reserved.</span>
+      </footer>
+    </div>
+  </div>
+
+</body>
+<script>
+  const sensor_type = {
+    TEMP_HUMID: 'temperature-humidity',
+    SOIL_MOIST: 'soil-moisture',
+    SOIL_TEMP: 'soil-temperature'
+  }
+
+  function processGraph(index, data_list) {
+
+    // console.log("data_list:");
+    // console.log(data_list);
+
+    labels = [
+
+    ];
+
+    data = [
+
+    ];
+
+    data_list.data.forEach(function (elem) {
+      labels.push(elem['x_axis']);
+      data.push(elem['y_axis']);
+    });
+
+    dataset_generated = []
+
+
+
+    /*
+    {
+                label: 'Enclosure ID '.concat(data_list['enclosure_id']),
+                backgroundColor: 'rgba(237, 231, 246, 0.5)',
+                borderColor: '#673ab7',
+                pointBackgroundColor: '#512da8',
+                borderWidth: 2,
+                data: data,
+              }
+    */
+    // console.log(labels);
+    // console.log(data_d)
+    // console.log('line-chart-'.concat(index));
+
+    const lineChartBox = $('#line-chart-'.concat(index));
+    const lineCtx = lineChartBox[0].getContext('2d');
+    // const lineCtxTwoTest = lineChartBox2.getContext('2d');
+
+    lineChartBox.height = 80;
+    // lineChartBox2.height = 80;
+
+    isChartRendered = false;
+
+    //For loop per-plant
+    new Chart(lineCtx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+            label: 'Enclosure ID '.concat(data_list['enclosure_id']),
+            backgroundColor: 'rgba(237, 231, 246, 0.5)',
+            borderColor: '#673ab7',
+            pointBackgroundColor: '#512da8',
+            borderWidth: 2,
+            data: data,
+          }
+          // , {
+          //     label: 'Series B',
+          //     backgroundColor: 'rgba(232, 245, 233, 0.5)',
+          //     borderColor: '#03a9f4',
+          //     pointBackgroundColor: '#0277bd',
+          //     borderWidth: 2,
+          //     data: [70, 75, 85, 70, 75, 85, 70],
+          // }
+        ],
+      },
+
+      options: {
+        legend: {
+          display: false,
+        }
+        //         ,// setting following option is mandatory
+        //     animation: {
+        //      onComplete: function() {
+        //         isChartRendered = true
+        //      }
+        //   }
+      },
+
+    });
+
+  }
+
+  //   let graph_index = 0;
+
+  function generateGraphs(data, sensor_type) {
+
+    for (const key of Object.keys(data)) {
+
+      // console.log("key: " + key);
+      // console.log("data[key]: ");
+      // console.log(data[key]);
+      // const enclosure_id = data[key].enclosure_id;
+      // const readings = data[key].data;
+      const sensor_id = data[key].sensor_id;
+      const sensor_type = data[key].sensor_type;
+      const enclosure_title = data[key].enclosure_title;
+      const plant_name = data[key].plant_name;
+
+      // console.log("elems:")
+      // console.log(enclosure_title)
+
+      // let graph_index_begin = graph_index;
+
+      // console.log("readings " + readings)
+
+      //TODO change to startup 
+
+      // var enclosures = 0;
+      let graph_html =
+        "<div class=\"masonry-sizer col-md-10 pos-a\"><\/div>\r\n              <div class=\"masonry-item col-md-10\">\r\n                <div class=\"bgc-white p-20 bd\">\r\n                  <h6 class=\"c-grey-900\">{title}<\/h6>\r\n                  <div class=\"mT-30\">\r\n                    <canvas id=\"line-chart-{index}\" height=\"220\"><\/canvas>\r\n                  <\/div>\r\n                <\/div>\r\n              <\/div>";
+
+      let graphs = "";
+
+      //   console.log("enclosures: " + enclosures)
+
+      //   enclosures.forEach(function (enc) {
+      //   graphs += graph_html.replace("{title}", enc.title).replace("{index}", sensor_id);
+      graphs += graph_html.replace("{title}", enclosure_title
+        .concat(" - ")
+        .concat(plant_name)
+        .concat("( ")
+        .concat(sensor_type)
+        .concat(" )")
+      ).replace("{index}",
+        sensor_id);
+      // graph_index++;
+
+      // console.log(enc);
+      //   });
+
+      $("#graphs").append(graphs);
+
+    }
+  }
+
+  function retrieveGraphData(sensor_type) {
+    let readings = [];
+    let enclosures = -1;
+
+    // switch (sensor_type) {
+    // case "soil-moisture":
+
+    if (sensor_type === 'temperature-humidity') {
+      $.ajax({
+        url: "http://localhost:8080/readings/temperature-humidity",
+        beforeSend: function (request) {
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+          // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        },
+        dataType: 'json',
+        async: false,
+        method: "GET",
+        // data: myData,
+        success: function (data) {
+          // readings = data;
+          readings.push(data);
+        }
+      });
+    }
+
+    if (sensor_type === 'soil-temperature') {
+      // break;
+      // case "soil-temperature":
+      $.ajax({
+        url: "http://localhost:8080/readings/soil-temperature",
+        beforeSend: function (request) {
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+          // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        },
+        dataType: 'json',
+        async: false,
+        method: "GET",
+        // data: myData,
+        success: function (data) {
+          readings.push(data);
+        }
+      });
+    }
+    // break;
+    // case "temperature-humidity":
+
+    if (sensor_type === 'soil-moisture') {
+      $.ajax({
+        url: "http://localhost:8080/readings/soil-moisture",
+        beforeSend: function (request) {
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+          // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+        },
+        dataType: 'json',
+        async: false,
+        method: "GET",
+        // data: myData,
+        success: function (data) {
+          readings.push(data);
+        }
+      });
+    }
+    // break;
+    // }
+
+    $.ajax({
+      url: "http://localhost:8080/enclosures",
+      beforeSend: function (request) {
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        // request.setRequestHeader("Access-Control-Allow-Origin", "*")
+      },
+      dataType: 'json',
+      async: false,
+      method: "GET",
+      // data: myData,
+      success: function (data) {
+        enclosures = data;
+      }
+    });
+
+    // console.log(readings)
+
+    console.log("enc: " + enclosures + " read: ");
+    console.log(readings)
+
+    return {
+      readings: readings,
+      enclosures: enclosures
+    }
+  }
+
+  // Assuming "?enclosure-id=1234"
+  var urlParams = new URLSearchParams(window.location.search);
+  let enc_id = -1;
+
+  if (urlParams.has('enclosure-id')) {
+    enc_id = urlParams.get('enclosure-id');
+  }
+
+  let dataTH = retrieveGraphData(sensor_type.TEMP_HUMID);
+  let dataSM = retrieveGraphData(sensor_type.SOIL_MOIST);
+  let dataST = retrieveGraphData(sensor_type.SOIL_TEMP);
+  // console.log(data)
+
+  let dataTH_parsed = parseData(dataTH.enclosures, dataTH.readings, sensor_type.TEMP_HUMID, enc_id);
+  let dataSM_parsed = parseData(dataSM.enclosures, dataSM.readings, sensor_type.SOIL_MOIST, enc_id);
+  let dataST_parsed = parseData(dataST.enclosures, dataST.readings, sensor_type.SOIL_TEMP, enc_id);
+
+  console.log("data parsed:");
+  console.log(dataTH_parsed);
+  console.log(dataSM_parsed);
+  console.log(dataST_parsed);
+
+  //JSON.parse(JSON.stringify(a));
+  generateGraphs(dataTH_parsed, sensor_type.TEMP_HUMID);
+  generateGraphs(dataSM_parsed, sensor_type.SOIL_MOIST);
+  generateGraphs(dataST_parsed, sensor_type.SOIL_TEMP);
+
+  drawGraph(dataTH_parsed);
+  drawGraph(dataSM_parsed);
+  drawGraph(dataST_parsed);
+
+  function parseData(enclosures, readings, sensor_type, enclosure_id) {
+    let reading_title = {
+      'temperature-humidity': 'temp-level',
+      'soil-moisture': 'moisture-level',
+      'soil-temperature': 'temp-level'
+    }
+
+    let enc_data = {};
+
+    enclosures.forEach(function (enc) {
+
+      let snsr_data = [];
+      if (enc['enclosure-id'] == enclosure_id) {
+
+        enc.plants.forEach(function (plnt) {
+          let plant_id = plnt['plant-id'];
+          plnt.sensors.forEach(function (snsr) {
+            let sensor_id = snsr['sensor-id'];
+            readings[0].forEach(function (reading) {
+              if (reading['sensor-id'] === sensor_id) {
+                sensor_id = snsr['sensor-id'];
+                snsr_data.push({
+                  plant_id: plant_id,
+                  sensor_id: sensor_id,
+                  x_axis: reading[sensor_type + '-reading-id'],
+                  y_axis: reading[reading_title[sensor_type]]
+                });
+              }
+            });
+
+            if (snsr_data.length !== 0) {
+              enc_data[plant_id] = {
+                enclosure_id: enc['enclosure-id'],
+                enclosure_title: enc['title'],
+                plant_name: plnt['name'],
+                plant_id: plant_id,
+                data: snsr_data,
+                sensor_id: sensor_id,
+                sensor_type: sensor_type
+              };
+
+              snsr_data = [];
+
+            }
+          });
+        });
+      }
+    });
+
+    console.log("Enc_data")
+    console.log(enc_data)
+
+    return enc_data;
+  }
+
+  function drawGraph(enc_data) {
+    // console.log("enc_data_b4");
+    // console.log(enc_data)
+
+    for (const key of Object.keys(enc_data)) {
+      processGraph(enc_data[key].sensor_id, enc_data[key]);
+    }
+
+    // for (i = 0; i < enc_data.length; i++) {
+    //   console.log("i: " + i + " enc_data: " + enc_data[i]);
+    //   processGraph(enc_data[i].sensor_id, enc_data[i]);
+    // }
+
+  }
+
+</script>
+
+</html>

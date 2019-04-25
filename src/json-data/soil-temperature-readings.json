@@ -1,0 +1,1441 @@
+[
+    {
+        "soil-temperature-reading-id": 1,
+        "sensor-id": 116,
+        "temp-level": 58,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-05T01:31:51 +04:00",
+        "last-updated-date-time": "2018-05-07T09:19:49 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 2,
+        "sensor-id": 116,
+        "temp-level": 82,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-07T12:29:15 +04:00",
+        "last-updated-date-time": "2018-04-22T09:33:03 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 3,
+        "sensor-id": 116,
+        "temp-level": 73,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-13T02:29:18 +05:00",
+        "last-updated-date-time": "2018-10-10T04:36:02 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 4,
+        "sensor-id": 116,
+        "temp-level": 80,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-25T10:41:46 +05:00",
+        "last-updated-date-time": "2018-03-04T01:06:25 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 5,
+        "sensor-id": 116,
+        "temp-level": 71,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-09T02:00:37 +04:00",
+        "last-updated-date-time": "2018-02-07T09:18:52 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 6,
+        "sensor-id": 116,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-01T09:36:01 +04:00",
+        "last-updated-date-time": "2019-02-19T01:36:17 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 7,
+        "sensor-id": 116,
+        "temp-level": 69,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-10T08:57:56 +05:00",
+        "last-updated-date-time": "2018-05-03T06:17:10 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 8,
+        "sensor-id": 116,
+        "temp-level": 75,
+        "temp-scale": "f",
+        "creation-date-time": "2019-04-02T06:48:18 +04:00",
+        "last-updated-date-time": "2018-12-26T01:54:02 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 9,
+        "sensor-id": 116,
+        "temp-level": 74,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-22T03:40:05 +04:00",
+        "last-updated-date-time": "2018-01-20T06:36:02 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 10,
+        "sensor-id": 116,
+        "temp-level": 55,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-22T12:42:33 +05:00",
+        "last-updated-date-time": "2018-04-19T02:28:25 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 11,
+        "sensor-id": 116,
+        "temp-level": 55,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-08T10:02:17 +04:00",
+        "last-updated-date-time": "2018-07-22T10:57:14 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 12,
+        "sensor-id": 116,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-13T12:27:58 +04:00",
+        "last-updated-date-time": "2018-11-12T10:03:03 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 13,
+        "sensor-id": 116,
+        "temp-level": 60,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-09T02:58:47 +05:00",
+        "last-updated-date-time": "2018-02-01T05:11:32 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 14,
+        "sensor-id": 116,
+        "temp-level": 67,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-07T07:44:13 +04:00",
+        "last-updated-date-time": "2018-01-05T03:36:06 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 15,
+        "sensor-id": 116,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-10T04:45:15 +05:00",
+        "last-updated-date-time": "2018-07-10T05:16:44 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 16,
+        "sensor-id": 116,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-19T11:35:17 +04:00",
+        "last-updated-date-time": "2018-07-12T09:41:45 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 17,
+        "sensor-id": 116,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-28T11:22:02 +05:00",
+        "last-updated-date-time": "2018-09-17T10:36:16 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 18,
+        "sensor-id": 116,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-24T03:45:16 +04:00",
+        "last-updated-date-time": "2018-02-08T04:51:44 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 19,
+        "sensor-id": 116,
+        "temp-level": 69,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-02T10:34:14 +05:00",
+        "last-updated-date-time": "2018-12-01T03:27:40 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 20,
+        "sensor-id": 116,
+        "temp-level": 68,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-14T05:03:45 +04:00",
+        "last-updated-date-time": "2018-10-03T10:30:44 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 21,
+        "sensor-id": 116,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-25T04:50:17 +04:00",
+        "last-updated-date-time": "2019-01-05T09:24:27 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 22,
+        "sensor-id": 116,
+        "temp-level": 69,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-09T09:48:11 +04:00",
+        "last-updated-date-time": "2018-08-26T10:39:08 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 23,
+        "sensor-id": 116,
+        "temp-level": 57,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-05T09:07:40 +04:00",
+        "last-updated-date-time": "2018-01-18T02:24:18 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 24,
+        "sensor-id": 116,
+        "temp-level": 68,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-25T11:16:49 +05:00",
+        "last-updated-date-time": "2018-08-13T05:34:07 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 25,
+        "sensor-id": 116,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-24T07:56:50 +05:00",
+        "last-updated-date-time": "2018-07-05T07:42:25 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 26,
+        "sensor-id": 116,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-10T08:50:16 +04:00",
+        "last-updated-date-time": "2018-08-20T11:58:16 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 27,
+        "sensor-id": 116,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-28T05:32:09 +04:00",
+        "last-updated-date-time": "2019-01-04T07:49:26 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 28,
+        "sensor-id": 116,
+        "temp-level": 64,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-25T10:38:03 +04:00",
+        "last-updated-date-time": "2018-08-21T09:43:15 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 29,
+        "sensor-id": 116,
+        "temp-level": 64,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-05T04:20:46 +05:00",
+        "last-updated-date-time": "2019-02-22T10:40:40 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 30,
+        "sensor-id": 116,
+        "temp-level": 83,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-16T03:40:58 +04:00",
+        "last-updated-date-time": "2018-03-23T06:07:52 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 31,
+        "sensor-id": 117,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-28T07:04:38 +04:00",
+        "last-updated-date-time": "2019-01-20T09:51:55 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 32,
+        "sensor-id": 117,
+        "temp-level": 66,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-02T11:47:26 +04:00",
+        "last-updated-date-time": "2018-07-08T03:22:28 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 33,
+        "sensor-id": 117,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-09T12:23:52 +05:00",
+        "last-updated-date-time": "2018-09-03T04:50:13 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 34,
+        "sensor-id": 117,
+        "temp-level": 83,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-10T07:03:15 +04:00",
+        "last-updated-date-time": "2018-09-24T01:18:58 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 35,
+        "sensor-id": 117,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-19T01:50:38 +04:00",
+        "last-updated-date-time": "2018-03-19T12:09:23 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 36,
+        "sensor-id": 117,
+        "temp-level": 73,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-16T12:06:11 +04:00",
+        "last-updated-date-time": "2018-05-21T08:08:13 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 37,
+        "sensor-id": 117,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-13T07:45:33 +04:00",
+        "last-updated-date-time": "2018-07-22T09:44:32 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 38,
+        "sensor-id": 117,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-18T11:56:08 +05:00",
+        "last-updated-date-time": "2018-10-19T01:26:40 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 39,
+        "sensor-id": 117,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-08T06:20:00 +04:00",
+        "last-updated-date-time": "2018-11-26T06:13:51 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 40,
+        "sensor-id": 117,
+        "temp-level": 57,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-26T11:46:51 +04:00",
+        "last-updated-date-time": "2018-09-09T11:28:59 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 41,
+        "sensor-id": 117,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-31T08:39:12 +04:00",
+        "last-updated-date-time": "2018-06-27T07:20:44 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 42,
+        "sensor-id": 117,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-31T11:39:54 +04:00",
+        "last-updated-date-time": "2018-03-26T10:13:14 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 43,
+        "sensor-id": 117,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-18T04:11:56 +04:00",
+        "last-updated-date-time": "2018-02-21T12:03:36 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 44,
+        "sensor-id": 117,
+        "temp-level": 58,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-27T05:11:46 +05:00",
+        "last-updated-date-time": "2018-01-12T08:58:51 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 45,
+        "sensor-id": 117,
+        "temp-level": 65,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-07T10:17:55 +04:00",
+        "last-updated-date-time": "2018-11-10T02:22:18 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 46,
+        "sensor-id": 117,
+        "temp-level": 66,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-26T09:15:41 +04:00",
+        "last-updated-date-time": "2018-01-19T02:03:57 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 47,
+        "sensor-id": 117,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-06T02:00:10 +05:00",
+        "last-updated-date-time": "2018-05-10T08:30:13 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 48,
+        "sensor-id": 117,
+        "temp-level": 65,
+        "temp-scale": "f",
+        "creation-date-time": "2019-04-06T04:34:51 +04:00",
+        "last-updated-date-time": "2018-03-09T03:22:31 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 49,
+        "sensor-id": 117,
+        "temp-level": 82,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-14T12:13:20 +05:00",
+        "last-updated-date-time": "2019-01-18T04:36:24 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 50,
+        "sensor-id": 117,
+        "temp-level": 83,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-14T06:06:42 +05:00",
+        "last-updated-date-time": "2018-05-16T05:42:40 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 51,
+        "sensor-id": 117,
+        "temp-level": 72,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-01T03:32:09 +05:00",
+        "last-updated-date-time": "2018-07-04T11:53:36 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 52,
+        "sensor-id": 117,
+        "temp-level": 78,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-26T08:27:54 +04:00",
+        "last-updated-date-time": "2019-01-07T05:45:48 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 53,
+        "sensor-id": 117,
+        "temp-level": 68,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-05T06:29:47 +05:00",
+        "last-updated-date-time": "2018-03-09T11:32:10 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 54,
+        "sensor-id": 117,
+        "temp-level": 75,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-28T02:34:31 +04:00",
+        "last-updated-date-time": "2018-06-07T01:39:28 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 55,
+        "sensor-id": 117,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-01-30T12:59:11 +05:00",
+        "last-updated-date-time": "2018-12-22T03:42:34 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 56,
+        "sensor-id": 117,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-07T09:49:28 +05:00",
+        "last-updated-date-time": "2018-05-02T09:57:24 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 57,
+        "sensor-id": 117,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-03T04:31:25 +04:00",
+        "last-updated-date-time": "2018-12-08T12:48:18 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 58,
+        "sensor-id": 117,
+        "temp-level": 73,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-25T05:55:46 +04:00",
+        "last-updated-date-time": "2018-06-07T04:15:59 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 59,
+        "sensor-id": 117,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-16T08:03:47 +04:00",
+        "last-updated-date-time": "2018-01-02T05:06:47 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 60,
+        "sensor-id": 117,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-31T06:15:07 +04:00",
+        "last-updated-date-time": "2018-05-11T09:00:24 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 61,
+        "sensor-id": 225,
+        "temp-level": 67,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-22T09:42:27 +04:00",
+        "last-updated-date-time": "2018-09-13T12:38:47 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 62,
+        "sensor-id": 225,
+        "temp-level": 67,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-14T07:43:47 +05:00",
+        "last-updated-date-time": "2019-02-11T05:44:55 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 63,
+        "sensor-id": 225,
+        "temp-level": 64,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-29T04:08:05 +04:00",
+        "last-updated-date-time": "2019-03-24T10:47:30 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 64,
+        "sensor-id": 225,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-01T10:57:05 +05:00",
+        "last-updated-date-time": "2018-01-30T04:29:07 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 65,
+        "sensor-id": 225,
+        "temp-level": 82,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-24T12:01:03 +05:00",
+        "last-updated-date-time": "2019-01-04T07:47:03 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 66,
+        "sensor-id": 225,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-13T06:47:45 +04:00",
+        "last-updated-date-time": "2018-03-20T06:58:28 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 67,
+        "sensor-id": 225,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-15T10:38:05 +04:00",
+        "last-updated-date-time": "2019-03-22T12:03:20 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 68,
+        "sensor-id": 225,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-27T02:06:26 +04:00",
+        "last-updated-date-time": "2018-05-22T05:55:32 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 69,
+        "sensor-id": 225,
+        "temp-level": 55,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-02T08:20:10 +05:00",
+        "last-updated-date-time": "2018-09-05T05:14:35 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 70,
+        "sensor-id": 225,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-27T07:49:27 +04:00",
+        "last-updated-date-time": "2019-03-17T05:37:36 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 71,
+        "sensor-id": 225,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-22T08:37:55 +04:00",
+        "last-updated-date-time": "2018-10-25T04:24:01 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 72,
+        "sensor-id": 225,
+        "temp-level": 58,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-02T05:05:06 +04:00",
+        "last-updated-date-time": "2018-08-22T05:46:12 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 73,
+        "sensor-id": 225,
+        "temp-level": 71,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-31T08:18:50 +05:00",
+        "last-updated-date-time": "2018-06-02T09:38:39 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 74,
+        "sensor-id": 225,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-11T10:24:27 +04:00",
+        "last-updated-date-time": "2018-09-16T08:33:45 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 75,
+        "sensor-id": 225,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-09T04:16:31 +04:00",
+        "last-updated-date-time": "2018-11-03T07:40:02 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 76,
+        "sensor-id": 225,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-25T12:14:24 +05:00",
+        "last-updated-date-time": "2018-07-06T06:17:48 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 77,
+        "sensor-id": 225,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-11T02:59:02 +05:00",
+        "last-updated-date-time": "2018-04-09T10:37:38 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 78,
+        "sensor-id": 225,
+        "temp-level": 64,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-08T03:29:29 +05:00",
+        "last-updated-date-time": "2018-02-07T07:18:49 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 79,
+        "sensor-id": 225,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-10T04:59:22 +05:00",
+        "last-updated-date-time": "2018-02-06T09:11:48 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 80,
+        "sensor-id": 225,
+        "temp-level": 74,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-17T10:22:52 +05:00",
+        "last-updated-date-time": "2019-02-22T08:00:20 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 81,
+        "sensor-id": 225,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-06T05:36:29 +04:00",
+        "last-updated-date-time": "2018-05-31T07:56:36 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 82,
+        "sensor-id": 225,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-17T05:32:17 +05:00",
+        "last-updated-date-time": "2018-09-19T12:33:32 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 83,
+        "sensor-id": 225,
+        "temp-level": 76,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-24T01:04:38 +04:00",
+        "last-updated-date-time": "2018-08-23T01:08:02 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 84,
+        "sensor-id": 225,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-14T10:38:53 +04:00",
+        "last-updated-date-time": "2018-07-06T05:45:35 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 85,
+        "sensor-id": 225,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-28T02:37:09 +04:00",
+        "last-updated-date-time": "2018-09-11T11:58:33 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 86,
+        "sensor-id": 225,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-17T04:17:35 +04:00",
+        "last-updated-date-time": "2018-11-16T04:02:33 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 87,
+        "sensor-id": 225,
+        "temp-level": 67,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-05T02:36:25 +05:00",
+        "last-updated-date-time": "2018-06-12T07:40:41 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 88,
+        "sensor-id": 225,
+        "temp-level": 57,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-29T07:31:37 +04:00",
+        "last-updated-date-time": "2018-11-18T08:59:40 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 89,
+        "sensor-id": 225,
+        "temp-level": 72,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-09T09:22:16 +04:00",
+        "last-updated-date-time": "2018-07-09T02:40:12 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 90,
+        "sensor-id": 225,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-10T09:35:34 +04:00",
+        "last-updated-date-time": "2018-02-12T10:52:17 +05:00"
+      },{
+        "soil-temperature-reading-id": 91,
+        "sensor-id": 216,
+        "temp-level": 80,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-30T06:34:03 +04:00",
+        "last-updated-date-time": "2019-02-05T07:44:30 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 92,
+        "sensor-id": 216,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-15T11:49:01 +04:00",
+        "last-updated-date-time": "2018-10-04T10:57:55 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 93,
+        "sensor-id": 216,
+        "temp-level": 78,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-20T04:56:19 +05:00",
+        "last-updated-date-time": "2018-12-26T05:20:08 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 94,
+        "sensor-id": 216,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-13T06:22:33 +04:00",
+        "last-updated-date-time": "2019-03-04T02:34:07 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 95,
+        "sensor-id": 216,
+        "temp-level": 67,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-03T04:07:17 +04:00",
+        "last-updated-date-time": "2019-01-24T02:35:10 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 96,
+        "sensor-id": 216,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-22T08:10:49 +05:00",
+        "last-updated-date-time": "2019-02-09T08:31:14 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 97,
+        "sensor-id": 216,
+        "temp-level": 67,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-23T06:01:45 +05:00",
+        "last-updated-date-time": "2018-05-22T02:55:28 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 98,
+        "sensor-id": 216,
+        "temp-level": 75,
+        "temp-scale": "f",
+        "creation-date-time": "2018-01-05T10:59:30 +05:00",
+        "last-updated-date-time": "2018-05-20T05:44:25 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 99,
+        "sensor-id": 216,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-23T03:03:56 +04:00",
+        "last-updated-date-time": "2018-03-01T08:39:33 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 100,
+        "sensor-id": 216,
+        "temp-level": 76,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-05T03:02:39 +04:00",
+        "last-updated-date-time": "2018-04-09T01:09:19 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 101,
+        "sensor-id": 216,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-02T12:41:18 +05:00",
+        "last-updated-date-time": "2018-04-25T11:35:24 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 102,
+        "sensor-id": 216,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-18T09:02:32 +04:00",
+        "last-updated-date-time": "2018-12-21T11:53:47 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 103,
+        "sensor-id": 216,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-10T03:53:47 +04:00",
+        "last-updated-date-time": "2018-07-03T02:54:12 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 104,
+        "sensor-id": 216,
+        "temp-level": 75,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-28T02:36:53 +04:00",
+        "last-updated-date-time": "2018-08-03T11:58:40 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 105,
+        "sensor-id": 216,
+        "temp-level": 83,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-08T05:07:43 +05:00",
+        "last-updated-date-time": "2018-08-16T01:02:10 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 106,
+        "sensor-id": 216,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-29T01:16:54 +04:00",
+        "last-updated-date-time": "2018-08-03T06:49:34 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 107,
+        "sensor-id": 216,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2018-01-28T07:26:24 +05:00",
+        "last-updated-date-time": "2018-09-12T05:47:29 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 108,
+        "sensor-id": 216,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2019-04-01T08:34:37 +04:00",
+        "last-updated-date-time": "2018-04-22T10:52:57 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 109,
+        "sensor-id": 216,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-19T01:03:24 +05:00",
+        "last-updated-date-time": "2018-12-15T09:49:48 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 110,
+        "sensor-id": 216,
+        "temp-level": 64,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-04T07:45:18 +04:00",
+        "last-updated-date-time": "2018-09-22T07:23:34 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 111,
+        "sensor-id": 216,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-28T10:49:45 +04:00",
+        "last-updated-date-time": "2018-05-05T09:35:32 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 112,
+        "sensor-id": 216,
+        "temp-level": 58,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-25T08:05:50 +04:00",
+        "last-updated-date-time": "2019-03-01T04:22:02 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 113,
+        "sensor-id": 216,
+        "temp-level": 76,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-13T02:49:12 +04:00",
+        "last-updated-date-time": "2019-03-08T02:29:47 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 114,
+        "sensor-id": 216,
+        "temp-level": 73,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-26T09:03:12 +05:00",
+        "last-updated-date-time": "2018-07-22T10:57:51 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 115,
+        "sensor-id": 216,
+        "temp-level": 69,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-04T06:10:00 +05:00",
+        "last-updated-date-time": "2018-07-11T08:57:04 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 116,
+        "sensor-id": 216,
+        "temp-level": 66,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-12T04:07:27 +04:00",
+        "last-updated-date-time": "2018-10-10T10:34:22 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 117,
+        "sensor-id": 216,
+        "temp-level": 60,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-11T06:10:31 +05:00",
+        "last-updated-date-time": "2018-10-24T05:40:49 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 118,
+        "sensor-id": 216,
+        "temp-level": 58,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-01T12:40:17 +05:00",
+        "last-updated-date-time": "2018-11-15T12:43:41 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 119,
+        "sensor-id": 216,
+        "temp-level": 66,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-21T04:43:08 +04:00",
+        "last-updated-date-time": "2018-12-01T02:41:04 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 120,
+        "sensor-id": 216,
+        "temp-level": 78,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-06T09:05:00 +04:00",
+        "last-updated-date-time": "2018-06-10T02:32:24 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 121,
+        "sensor-id": 217,
+        "temp-level": 66,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-21T10:10:33 +04:00",
+        "last-updated-date-time": "2018-10-05T09:56:36 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 122,
+        "sensor-id": 217,
+        "temp-level": 64,
+        "temp-scale": "f",
+        "creation-date-time": "2018-01-12T09:55:15 +05:00",
+        "last-updated-date-time": "2018-12-16T01:02:59 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 123,
+        "sensor-id": 217,
+        "temp-level": 83,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-23T01:42:40 +05:00",
+        "last-updated-date-time": "2018-05-31T05:14:53 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 124,
+        "sensor-id": 217,
+        "temp-level": 57,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-06T09:18:50 +05:00",
+        "last-updated-date-time": "2019-03-13T06:49:49 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 125,
+        "sensor-id": 217,
+        "temp-level": 78,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-16T12:26:27 +05:00",
+        "last-updated-date-time": "2019-03-03T06:43:29 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 126,
+        "sensor-id": 217,
+        "temp-level": 55,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-21T08:37:38 +04:00",
+        "last-updated-date-time": "2018-06-23T03:15:40 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 127,
+        "sensor-id": 217,
+        "temp-level": 70,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-09T07:06:55 +05:00",
+        "last-updated-date-time": "2019-02-11T07:10:10 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 128,
+        "sensor-id": 217,
+        "temp-level": 82,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-11T06:39:24 +04:00",
+        "last-updated-date-time": "2018-02-28T04:52:54 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 129,
+        "sensor-id": 217,
+        "temp-level": 76,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-08T04:06:39 +05:00",
+        "last-updated-date-time": "2018-05-02T05:59:21 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 130,
+        "sensor-id": 217,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-03T03:39:25 +04:00",
+        "last-updated-date-time": "2018-03-12T11:24:10 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 131,
+        "sensor-id": 217,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-21T10:41:12 +04:00",
+        "last-updated-date-time": "2018-02-06T11:48:37 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 132,
+        "sensor-id": 217,
+        "temp-level": 68,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-25T01:49:14 +04:00",
+        "last-updated-date-time": "2018-08-09T06:39:07 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 133,
+        "sensor-id": 217,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-02T06:33:38 +05:00",
+        "last-updated-date-time": "2018-02-06T01:40:04 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 134,
+        "sensor-id": 217,
+        "temp-level": 55,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-08T08:56:58 +05:00",
+        "last-updated-date-time": "2018-01-13T08:25:11 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 135,
+        "sensor-id": 217,
+        "temp-level": 71,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-28T10:30:43 +04:00",
+        "last-updated-date-time": "2018-12-21T09:16:20 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 136,
+        "sensor-id": 217,
+        "temp-level": 76,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-22T07:34:46 +05:00",
+        "last-updated-date-time": "2018-12-02T02:35:54 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 137,
+        "sensor-id": 217,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-11T10:51:59 +04:00",
+        "last-updated-date-time": "2018-04-05T02:13:52 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 138,
+        "sensor-id": 217,
+        "temp-level": 60,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-27T05:52:00 +05:00",
+        "last-updated-date-time": "2019-01-01T05:11:48 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 139,
+        "sensor-id": 217,
+        "temp-level": 57,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-21T02:58:33 +05:00",
+        "last-updated-date-time": "2018-02-08T01:36:53 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 140,
+        "sensor-id": 217,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-20T02:35:07 +04:00",
+        "last-updated-date-time": "2018-02-22T03:25:44 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 141,
+        "sensor-id": 217,
+        "temp-level": 82,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-19T01:59:57 +05:00",
+        "last-updated-date-time": "2019-04-04T09:12:54 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 142,
+        "sensor-id": 217,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-12T12:10:25 +05:00",
+        "last-updated-date-time": "2018-08-06T04:45:56 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 143,
+        "sensor-id": 217,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-03T04:06:44 +05:00",
+        "last-updated-date-time": "2018-04-27T07:01:08 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 144,
+        "sensor-id": 217,
+        "temp-level": 63,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-24T03:41:51 +05:00",
+        "last-updated-date-time": "2018-02-11T01:41:09 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 145,
+        "sensor-id": 217,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-10T01:53:06 +04:00",
+        "last-updated-date-time": "2019-01-10T08:25:09 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 146,
+        "sensor-id": 217,
+        "temp-level": 74,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-16T03:52:31 +04:00",
+        "last-updated-date-time": "2018-07-27T05:40:26 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 147,
+        "sensor-id": 217,
+        "temp-level": 69,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-19T08:45:29 +05:00",
+        "last-updated-date-time": "2018-02-09T06:31:04 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 148,
+        "sensor-id": 217,
+        "temp-level": 60,
+        "temp-scale": "f",
+        "creation-date-time": "2018-08-19T11:35:35 +04:00",
+        "last-updated-date-time": "2019-02-11T02:29:44 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 149,
+        "sensor-id": 217,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-15T10:05:46 +05:00",
+        "last-updated-date-time": "2018-05-09T01:34:32 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 150,
+        "sensor-id": 217,
+        "temp-level": 58,
+        "temp-scale": "f",
+        "creation-date-time": "2019-01-21T08:12:29 +05:00",
+        "last-updated-date-time": "2019-01-03T10:59:22 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 151,
+        "sensor-id": 226,
+        "temp-level": 60,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-15T04:54:38 +04:00",
+        "last-updated-date-time": "2019-03-12T07:44:27 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 152,
+        "sensor-id": 226,
+        "temp-level": 78,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-22T04:38:17 +04:00",
+        "last-updated-date-time": "2018-05-18T05:35:30 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 153,
+        "sensor-id": 226,
+        "temp-level": 78,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-06T09:11:28 +05:00",
+        "last-updated-date-time": "2018-08-13T11:14:15 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 154,
+        "sensor-id": 226,
+        "temp-level": 60,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-25T08:22:50 +05:00",
+        "last-updated-date-time": "2018-12-26T01:15:16 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 155,
+        "sensor-id": 226,
+        "temp-level": 76,
+        "temp-scale": "f",
+        "creation-date-time": "2018-01-17T08:23:28 +05:00",
+        "last-updated-date-time": "2018-02-28T02:08:51 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 156,
+        "sensor-id": 226,
+        "temp-level": 73,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-23T04:13:54 +05:00",
+        "last-updated-date-time": "2018-03-04T07:24:12 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 157,
+        "sensor-id": 226,
+        "temp-level": 57,
+        "temp-scale": "f",
+        "creation-date-time": "2018-01-22T10:28:01 +05:00",
+        "last-updated-date-time": "2018-10-09T07:53:35 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 158,
+        "sensor-id": 226,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-05T09:27:48 +04:00",
+        "last-updated-date-time": "2018-08-08T09:33:37 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 159,
+        "sensor-id": 226,
+        "temp-level": 82,
+        "temp-scale": "f",
+        "creation-date-time": "2018-04-05T07:01:03 +04:00",
+        "last-updated-date-time": "2019-02-18T05:50:55 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 160,
+        "sensor-id": 226,
+        "temp-level": 83,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-24T03:44:35 +04:00",
+        "last-updated-date-time": "2018-06-26T11:45:47 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 161,
+        "sensor-id": 226,
+        "temp-level": 62,
+        "temp-scale": "f",
+        "creation-date-time": "2018-09-26T09:35:21 +04:00",
+        "last-updated-date-time": "2019-03-16T10:44:45 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 162,
+        "sensor-id": 226,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-28T05:51:44 +05:00",
+        "last-updated-date-time": "2018-07-07T07:09:43 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 163,
+        "sensor-id": 226,
+        "temp-level": 56,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-10T01:56:33 +05:00",
+        "last-updated-date-time": "2018-03-18T03:36:31 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 164,
+        "sensor-id": 226,
+        "temp-level": 55,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-16T11:20:17 +04:00",
+        "last-updated-date-time": "2018-10-14T02:55:59 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 165,
+        "sensor-id": 226,
+        "temp-level": 78,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-10T03:14:47 +05:00",
+        "last-updated-date-time": "2018-01-29T08:19:38 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 166,
+        "sensor-id": 226,
+        "temp-level": 76,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-04T04:41:04 +05:00",
+        "last-updated-date-time": "2018-05-25T02:10:34 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 167,
+        "sensor-id": 226,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-11T02:47:51 +04:00",
+        "last-updated-date-time": "2018-10-22T03:14:24 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 168,
+        "sensor-id": 226,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-17T09:46:51 +04:00",
+        "last-updated-date-time": "2018-06-20T01:59:04 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 169,
+        "sensor-id": 226,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-31T04:19:29 +04:00",
+        "last-updated-date-time": "2018-07-14T02:55:58 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 170,
+        "sensor-id": 226,
+        "temp-level": 65,
+        "temp-scale": "f",
+        "creation-date-time": "2019-02-26T12:04:45 +05:00",
+        "last-updated-date-time": "2019-01-16T01:47:00 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 171,
+        "sensor-id": 226,
+        "temp-level": 75,
+        "temp-scale": "f",
+        "creation-date-time": "2018-11-20T07:54:13 +05:00",
+        "last-updated-date-time": "2018-11-02T08:12:23 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 172,
+        "sensor-id": 226,
+        "temp-level": 66,
+        "temp-scale": "f",
+        "creation-date-time": "2018-07-04T10:28:05 +04:00",
+        "last-updated-date-time": "2018-02-08T12:44:55 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 173,
+        "sensor-id": 226,
+        "temp-level": 81,
+        "temp-scale": "f",
+        "creation-date-time": "2018-02-17T05:21:38 +05:00",
+        "last-updated-date-time": "2018-02-26T09:13:14 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 174,
+        "sensor-id": 226,
+        "temp-level": 77,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-26T04:28:24 +04:00",
+        "last-updated-date-time": "2019-02-22T01:30:08 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 175,
+        "sensor-id": 226,
+        "temp-level": 55,
+        "temp-scale": "f",
+        "creation-date-time": "2018-12-14T02:58:47 +05:00",
+        "last-updated-date-time": "2018-02-18T06:30:37 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 176,
+        "sensor-id": 226,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2018-05-29T06:32:09 +04:00",
+        "last-updated-date-time": "2018-03-21T10:41:31 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 177,
+        "sensor-id": 226,
+        "temp-level": 59,
+        "temp-scale": "f",
+        "creation-date-time": "2019-03-15T01:53:22 +04:00",
+        "last-updated-date-time": "2018-02-04T05:35:07 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 178,
+        "sensor-id": 226,
+        "temp-level": 79,
+        "temp-scale": "f",
+        "creation-date-time": "2018-06-14T10:49:22 +04:00",
+        "last-updated-date-time": "2018-06-28T08:56:34 +04:00"
+      },
+      {
+        "soil-temperature-reading-id": 179,
+        "sensor-id": 226,
+        "temp-level": 61,
+        "temp-scale": "f",
+        "creation-date-time": "2018-03-09T04:52:44 +05:00",
+        "last-updated-date-time": "2018-11-30T11:12:49 +05:00"
+      },
+      {
+        "soil-temperature-reading-id": 180,
+        "sensor-id": 226,
+        "temp-level": 60,
+        "temp-scale": "f",
+        "creation-date-time": "2018-10-05T01:29:26 +04:00",
+        "last-updated-date-time": "2018-03-19T09:43:56 +04:00"
+      }
+]
