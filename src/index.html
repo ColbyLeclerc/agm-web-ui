@@ -229,7 +229,7 @@
     let enclosures = -1;
 
     $.ajax({
-      url: "http://localhost:8080/enclosures",
+      url: "http://localhost:8080/agm/v1/enclosures",
       beforeSend: function (request) {
         request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
         // request.setRequestHeader("Access-Control-Allow-Origin", "*")

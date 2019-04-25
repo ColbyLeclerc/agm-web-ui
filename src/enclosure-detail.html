@@ -338,7 +338,7 @@
 
     if (sensor_type === 'temperature-humidity') {
       $.ajax({
-        url: "http://localhost:8080/readings/temperature-humidity",
+        url: "http://localhost:8080/agm/v1/readings/temperature-humidity",
         beforeSend: function (request) {
           request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
@@ -358,7 +358,7 @@
       // break;
       // case "soil-temperature":
       $.ajax({
-        url: "http://localhost:8080/readings/soil-temperature",
+        url: "http://localhost:8080/agm/v1/readings/soil-temperature",
         beforeSend: function (request) {
           request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
@@ -377,7 +377,7 @@
 
     if (sensor_type === 'soil-moisture') {
       $.ajax({
-        url: "http://localhost:8080/readings/soil-moisture",
+        url: "http://localhost:8080/agm/v1/readings/soil-moisture",
         beforeSend: function (request) {
           request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
@@ -395,7 +395,7 @@
     // }
 
     $.ajax({
-      url: "http://localhost:8080/enclosures",
+      url: "http://localhost:8080/agm/v1/enclosures",
       beforeSend: function (request) {
         request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
         // request.setRequestHeader("Access-Control-Allow-Origin", "*")

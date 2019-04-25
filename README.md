@@ -20,10 +20,12 @@ In order to run **Adminator** (Original name of the template) on your local mach
 Start by typing the following commands in your terminal in order to get **Adminator** full package on your machine and starting a local development server with live reload feature.
 
 ```
-> cd agm-web
+> cd agm-web-ui
 > npm install
 > npm run dev
 ```
+
+Once the dev server is running, see the terminal for the port used to connect. The endpoints used connect to the server `localhost:8080`, thus have `agm-api` running on localhost:8080.
 
 ## Files/Folders Structure
 Here is a brief explanation of the template folder structure and some of its main files usage:
