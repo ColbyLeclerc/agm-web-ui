@@ -27,6 +27,43 @@ Start by typing the following commands in your terminal in order to get **Admina
 
 Once the dev server is running, see the terminal for the port used to connect. The endpoints used connect to the server `localhost:8080`, thus have `agm-api` running on localhost:8080.
 
+NOTE: Auth keys defined in project are dev keys, belonging only to local instances.
+
+To change the Auth key, go to the following files, and replace the `AUTH_KEY` variable with the new auth key (found at the top of each file):
+  - `index.html`
+  - `forms.html`
+  - `enclosure-detail.html`
+
+
+##### Troubleshooting
+If you get an error similar to below (regarding `transform-vue-jsx` not existing)
+
+```
+ERROR in ../assets/scripts/index.js
+Module build failed: ReferenceError: Unknown plugin "transform-vue-jsx" specified in "<root-dir>/agm-web-ui/.babelrc" at 0, attempted to resolve relative to "<root-dir>/agm-web-ui"
+    at <root-dir>/agm-web-ui/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180:17
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (<root-dir>/agm-web-ui/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (<root-dir>/agm-web-ui/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (<root-dir>/agm-web-ui/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at File.initOptions (<root-dir>/agm-web-ui/node_modules/babel-core/lib/transformation/file/index.js:212:65)
+    at new File (<root-dir>/agm-web-ui/node_modules/babel-core/lib/transformation/file/index.js:135:24)
+    at Pipeline.transform (<root-dir>/agm-web-ui/node_modules/babel-core/lib/transformation/pipeline.js:46:16)
+    at transpile (<root-dir>/agm-web-ui/node_modules/babel-loader/lib/index.js:50:20)
+    at Object.module.exports (<root-dir>/agm-web-ui/node_modules/babel-loader/lib/index.js:173:20)
+ @ multi ../assets/scripts/index.js
+```
+
+then you'll have to install the dependency manually:
+```
+> npm install\
+  babel-plugin-syntax-jsx\
+  babel-plugin-transform-vue-jsx\
+  babel-helper-vue-jsx-merge-props\
+  babel-preset-env\
+  --save-dev
+```
+
 ## Files/Folders Structure
 Here is a brief explanation of the template folder structure and some of its main files usage:
 

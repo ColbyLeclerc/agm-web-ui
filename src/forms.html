@@ -4,6 +4,10 @@
 <head>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    let AUTH_KEY = '3680061c-79e4-4161-a4cb-773c7a2b1001'
+
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Forms</title>
@@ -259,13 +263,13 @@
                             event.preventDefault();
                             event.stopPropagation();
                           } else {
-                            submitCreateSensor();
+                            let success = submitCreateSensor();
                             event.preventDefault();
                             event.stopPropagation();
                             //TODO plant-id and enc-id are both being passed, while one of them should not be (depending on selection)
                             //TODO add form to add plant, and enclosure
                             // let enclosure_data = retrieveEnclosureData();
-                            processTableUpdate();
+                            processTableUpdate(!success);
                           }
                           form.classList.add('was-validated');
                         }, false);
@@ -364,7 +368,7 @@
                     <div class="row">
                       <div class="col-md-3 mb-3">
                         <label id="fnc_id" for="enclosure_length">Length</label>
-                        <input type="number" min="0" class="form-control" id="enclosure_length" placeholder="L"
+                        <input type="number" min="1" class="form-control" id="enclosure_length" placeholder="L"
                           required>
                         <div class="invalid-feedback">
                           ID must be an integer greater than 0
@@ -372,14 +376,14 @@
                       </div>
                       <div class="col-md-3 mb-3">
                         <label id="fnc_id" for="enclosure_width">Width</label>
-                        <input type="number" min="0" class="form-control" id="enclosure_width" placeholder="W" required>
+                        <input type="number" min="1" class="form-control" id="enclosure_width" placeholder="W" required>
                         <div class="invalid-feedback">
                           ID must be an integer greater than or equal to 0
                         </div>
                       </div>
                       <div class="col-md-3 mb-3">
                         <label id="fnc_id" for="enclosure_height">Height</label>
-                        <input type="number" min="0" class="form-control" id="enclosure_height" placeholder="H"
+                        <input type="number" min="1" class="form-control" id="enclosure_height" placeholder="H"
                           required>
                         <div class="invalid-feedback">
                           ID must be an integer greater than or equal to 0
@@ -440,6 +444,9 @@
   </div>
 </body>
 <script>
+  let plant_ids = [];
+  let enclosure_ids = [];
+
   function setForm() {
     let formState = $('#inputSensorType').val();
     let inputSnsrFnc = $('#inputSensorFnc');
@@ -495,9 +502,9 @@
     console.log("Create Enc")
 
     $.ajax({
-      url: "http://localhost:8080/enclosures",
+      url: "http://localhost:8080/agm/v1/enclosures",
       beforeSend: function (request) {
-        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Authorization", AUTH_KEY);
         request.setRequestHeader("Access-Control-Allow-Origin", "*")
         request.setRequestHeader("Content-Type", "application/json")
 
@@ -540,7 +547,7 @@
     $.ajax({
       url: "http://localhost:8080/agm/v1/plants",
       beforeSend: function (request) {
-        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Authorization", AUTH_KEY);
         request.setRequestHeader("Access-Control-Allow-Origin", "*")
         request.setRequestHeader("Content-Type", "application/json")
 
@@ -586,6 +593,22 @@
     let plant_id = isEnc ? 0 : $('#fnc_id_val').val()
     let enclosure_id = $('#fnc_id_val').val();
 
+    console.log("TEST")
+    console.log(!enclosure_ids.includes(enclosure_id))
+    console.log(!plant_ids.includes(plant_id))
+
+    if (!plant_ids.includes(parseInt(plant_id)) && !(isEnc)) {
+      $("#errorMessageCreateSensor").empty()
+      $("#errorMessageCreateSensor").append("Error: Plant ID does not exist.");
+      return false;
+    }
+
+    if (!enclosure_ids.includes(parseInt(enclosure_id)) && isEnc) {
+      $("#errorMessageCreateSensor").empty()
+      $("#errorMessageCreateSensor").append("Error: Enclosure ID does not exist.");
+      return false;
+    }
+
     data = (isEnc ? {
       "enclosure-id": enclosure_id,
       "sensor-type": sensor_type,
@@ -601,7 +624,7 @@
     $.ajax({
       url: "http://localhost:8080/agm/v1/sensors",
       beforeSend: function (request) {
-        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Authorization", AUTH_KEY);
         request.setRequestHeader("Access-Control-Allow-Origin", "*")
         request.setRequestHeader("Content-Type", "application/json")
 
@@ -615,6 +638,7 @@
         $("#errorMessageCreateSensor").empty();
         console.log("success:");
         console.log(data);
+        return true;
       },
       error: function (data) {
         $("#errorMessageCreateSensor").empty()
@@ -622,11 +646,11 @@
           .replace("{type}", (isEnc ? "Enclosure" : "Plant")));
         console.log("error");
         console.log(data)
+        return false;
       }
     });
 
-    // console.log(data)
-
+    return true;
   }
 
   function retrieveEnclosureData(sensor_type) {
@@ -635,7 +659,7 @@
     $.ajax({
       url: "http://localhost:8080/agm/v1/enclosures",
       beforeSend: function (request) {
-        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Authorization", AUTH_KEY);
         // request.setRequestHeader("Access-Control-Allow-Origin", "*")
       },
       dataType: 'json',
@@ -658,7 +682,7 @@
     $.ajax({
       url: "http://localhost:8080/agm/v1/plants",
       beforeSend: function (request) {
-        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Authorization", AUTH_KEY);
         // request.setRequestHeader("Access-Control-Allow-Origin", "*")
       },
       dataType: 'json',
@@ -682,13 +706,17 @@
   populateTablesPlants(plant_data);
   //sensorInfo
 
-  function processTableUpdate() {
-    $('#plants').empty();
-    $('#enclosures').empty();
+  function processTableUpdate(is_error) {
+
+    if (!is_error) {
+      $('#plants').empty();
+      $('#enclosures').empty();
+      location.reload();
+    }
 
     //TODO have update live
     // return populateTables(enclosure_data);
-    location.reload();
+
   }
   //<a href="#" class="close">
   function populateTablesEnclosure(enclosures) {
@@ -714,6 +742,7 @@
 
     enclosures.enclosures.forEach(function (enclosure) {
       let enclosure_id = enclosure['enclosure-id'];
+      enclosure_ids.push(enclosure_id);
       result += table_html.replace("{table_contents}", populateTableContentEnclosure(enclosures.enclosures,
           enclosure_id))
         .replace("{title}", enclosure['title'])
@@ -770,6 +799,7 @@
 
     plants.forEach(function (plant) {
       // if (plant['is-plant'] == true) {
+      plant_ids.push(plant['plant-id']);
       table_res += table_html
         .replace("{plant_name}", plant['name'])
         .replace("{plant_id}", plant['plant-id'])
@@ -790,7 +820,7 @@
       $.ajax({
         url: "http://localhost:8080/agm/v1/sensors/" + id,
         beforeSend: function (request) {
-          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+          request.setRequestHeader("Authorization", AUTH_KEY);
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
         },
         dataType: 'json',
@@ -813,7 +843,7 @@
       $.ajax({
         url: "http://localhost:8080/agm/v1/plants/" + id,
         beforeSend: function (request) {
-          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+          request.setRequestHeader("Authorization", AUTH_KEY);
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
         },
         dataType: 'json',

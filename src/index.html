@@ -7,6 +7,10 @@
   <title>Dashboard</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <script>
+    let AUTH_KEY = '3680061c-79e4-4161-a4cb-773c7a2b1001'
+
+  </script>
   <style>
     #loader {
       transition: all 0.3s ease-in-out;
@@ -231,7 +235,7 @@
     $.ajax({
       url: "http://localhost:8080/agm/v1/enclosures",
       beforeSend: function (request) {
-        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
+        request.setRequestHeader("Authorization", AUTH_KEY);
         // request.setRequestHeader("Access-Control-Allow-Origin", "*")
       },
       dataType: 'json',

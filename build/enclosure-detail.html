@@ -1,201 +1,16 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <!-- TODO change to local call -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script>
-    let AUTH_KEY = '3680061c-79e4-4161-a4cb-773c7a2b1001'
-
-  </script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Enclosure Detail</title>
-  <style>
-    #loader {
-      transition: all 0.3s ease-in-out;
-      opacity: 1;
-      visibility: visible;
-      position: fixed;
-      height: 100vh;
-      width: 100%;
-      background: #fff;
-      z-index: 90000;
-    }
-
-    #loader.fadeOut {
-      opacity: 0;
-      visibility: hidden;
-    }
-
-    .spinner {
-      width: 40px;
-      height: 40px;
-      position: absolute;
-      top: calc(50% - 20px);
-      left: calc(50% - 20px);
-      background-color: #333;
-      border-radius: 100%;
-      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
-      animation: sk-scaleout 1.0s infinite ease-in-out;
-    }
-
-    @-webkit-keyframes sk-scaleout {
-      0% {
-        -webkit-transform: scale(0)
-      }
-
-      100% {
-        -webkit-transform: scale(1.0);
-        opacity: 0;
-      }
-    }
-
-    @keyframes sk-scaleout {
-      0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-      }
-
-      100% {
-        -webkit-transform: scale(1.0);
-        transform: scale(1.0);
-        opacity: 0;
-      }
-    }
-
-  </style>
-</head>
-
-<body class="app">
-  <!-- @TOC -->
-  <!-- =================================================== -->
-  <!--
-      + @Page Loader
-      + @App Content
-          - #Left Sidebar
-              > $Sidebar Header
-              > $Sidebar Menu
-
-          - #Main
-              > $Topbar
-              > $App Screen Content
-    -->
-
-  <!-- @Page Loader -->
-  <!-- =================================================== -->
-  <div id='loader'>
-    <div class="spinner"></div>
-  </div>
-  <script>
-    //    let enc/losures;
+<!doctype html><html><head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Enclosure Detail</title><style>#loader{transition:all .3s ease-in-out;opacity:1;visibility:visible;position:fixed;height:100vh;width:100%;background:#fff;z-index:90000}#loader.fadeOut{opacity:0;visibility:hidden}.spinner{width:40px;height:40px;position:absolute;top:calc(50% - 20px);left:calc(50% - 20px);background-color:#333;border-radius:100%;-webkit-animation:sk-scaleout 1s infinite ease-in-out;animation:sk-scaleout 1s infinite ease-in-out}@-webkit-keyframes sk-scaleout{0%{-webkit-transform:scale(0)}100%{-webkit-transform:scale(1);opacity:0}}@keyframes sk-scaleout{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}</style></head><body class="app"><div id="loader"><div class="spinner"></div></div><script>//    let enc/losures;
     window.addEventListener('load', function load() {
       const loader = document.getElementById('loader');
       setTimeout(function () {
         loader.classList.add('fadeOut');
       }, 300);
-    });
-
-  </script>
-
-  <!-- @App Content -->
-  <!-- =================================================== -->
-  <div>
-    <!-- #Left Sidebar ==================== -->
-    <div class="sidebar">
-      <div class="sidebar-inner">
-        <!-- ### $Sidebar Header ### -->
-        <div class="sidebar-logo">
-          <div class="peers ai-c fxw-nw">
-            <div class="peer peer-greed">
-              <a class="sidebar-link td-n" href="index.html">
-                <div class="peers ai-c fxw-nw">
-                  <div class="peer">
-                    <!-- <div class="logo">
-                      <img src="assets/static/images/logo.png" alt="">
-                    </div> -->
-                  </div>
-                  <div class="peer peer-greed">
-                    <h5 class="lh-1 mB-0 logo-text" style="padding: 20px;text-align: center;">Advanced Garden Monitor
-                    </h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="peer">
-              <div class="mobile-toggle sidebar-toggle">
-                <a href="" class="td-n">
-                  <i class="ti-arrow-circle-left"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- ### $Sidebar Menu ### -->
-        <ul class="sidebar-menu scrollable pos-r">
-          <li class="nav-item mT-30 active">
-            <a class="sidebar-link" href="index.html">
-              <span class="icon-holder">
-                <i class="c-blue-500 ti-home"></i>
-              </span>
-              <span class="title">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class='sidebar-link' href="forms.html">
-              <span class="icon-holder">
-                <i class="c-light-blue-500 ti-pencil"></i>
-              </span>
-              <span class="title">Plants and Sensors</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- #Main ============================ -->
-    <div class="page-container">
-      <!-- ### $Topbar ### -->
-      <div class="header navbar">
-        <div class="header-container">
-          <ul class="nav-left">
-            <li>
-              <a id='sidebar-toggle' class="sidebar-toggle" href="javascript:void(0);">
-                <i class="ti-menu"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- ### $App Screen Content ### 6 -->
-      <main class='main-content bgc-grey-100'>
-        <div id='mainContent'>
-          <div id="graphs" class="row gap-20 masonry pos-r">
-            <div class="masonry-sizer col-md-10 pos-a"></div>
-          </div>
-        </div>
-      </main>
-
-      <!-- ### $App Screen Footer ### -->
-      <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
-        <span>Copyright © 2019 <a href="https://colby.io" target='_blank' title="Colorlib">CJ Software</a>.
-          All rights reserved.</span>
-      </footer>
-    </div>
-  </div>
-
-</body>
-<script>
-  const sensor_type = {
+    });</script><div><div class="sidebar"><div class="sidebar-inner"><div class="sidebar-logo"><div class="peers ai-c fxw-nw"><div class="peer peer-greed"><a class="sidebar-link td-n" href="index.html"><div class="peers ai-c fxw-nw"><div class="peer"></div><div class="peer peer-greed"><h5 class="lh-1 mB-0 logo-text" style="padding:20px;text-align:center">Advanced Garden Monitor</h5></div></div></a></div><div class="peer"><div class="mobile-toggle sidebar-toggle"><a href="" class="td-n"><i class="ti-arrow-circle-left"></i></a></div></div></div></div><ul class="sidebar-menu scrollable pos-r"><li class="nav-item mT-30 active"><a class="sidebar-link" href="index.html"><span class="icon-holder"><i class="c-blue-500 ti-home"></i> </span><span class="title">Dashboard</span></a></li><li class="nav-item"><a class="sidebar-link" href="forms.html"><span class="icon-holder"><i class="c-light-blue-500 ti-pencil"></i> </span><span class="title">Plants and Sensors</span></a></li></ul></div></div><div class="page-container"><div class="header navbar"><div class="header-container"><ul class="nav-left"><li><a id="sidebar-toggle" class="sidebar-toggle" href="javascript:void(0);"><i class="ti-menu"></i></a></li></ul></div></div><main class="main-content bgc-grey-100"><div id="mainContent"><div id="graphs" class="row gap-20 masonry pos-r"><div class="masonry-sizer col-md-10 pos-a"></div></div></div></main><footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600"><span>Copyright © 2019 <a href="https://colby.io" target="_blank" title="Colorlib">CJ Software</a>. All rights reserved.</span></footer></div></div><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="bundle.js"></script></body><script>const sensor_type = {
     TEMP_HUMID: 'temperature-humidity',
     SOIL_MOIST: 'soil-moisture',
     SOIL_TEMP: 'soil-temperature'
   }
 
-  function processGraph(index, data_list, min, max) {
+  function processGraph(index, data_list) {
 
     // console.log("data_list:");
     // console.log(data_list);
@@ -207,17 +22,6 @@
     data = [
 
     ];
-
-    // let min_lvl = 0;
-    // let max_lvl = 100;
-
-    // if (min !== undefined) {
-    //   min_lvl = min;
-    // }
-
-    // if (max !== undefined) {
-    //   max_lvl = max;
-    // }
 
     data_list.data.forEach(function (elem) {
       labels.push(elem['x_axis']);
@@ -279,20 +83,6 @@
         legend: {
           display: false,
         }
-        // ,
-        // scales: {
-        //   yAxes: [{
-        //     ticks: {
-        //       max: max_lvl,
-        //       min: min_lvl
-        //     }
-        //   }]
-        // },
-        // elements: {
-        //   line: {
-        //     tension: 0 // disables bezier curves
-        //   }
-        // }
         //         ,// setting following option is mandatory
         //     animation: {
         //      onComplete: function() {
@@ -369,7 +159,7 @@
       $.ajax({
         url: "http://localhost:8080/agm/v1/readings/temperature-humidity",
         beforeSend: function (request) {
-          request.setRequestHeader("Authorization", AUTH_KEY);
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
         },
         dataType: 'json',
@@ -389,7 +179,7 @@
       $.ajax({
         url: "http://localhost:8080/agm/v1/readings/soil-temperature",
         beforeSend: function (request) {
-          request.setRequestHeader("Authorization", AUTH_KEY);
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
         },
         dataType: 'json',
@@ -408,7 +198,7 @@
       $.ajax({
         url: "http://localhost:8080/agm/v1/readings/soil-moisture",
         beforeSend: function (request) {
-          request.setRequestHeader("Authorization", AUTH_KEY);
+          request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
           // request.setRequestHeader("Access-Control-Allow-Origin", "*")
         },
         dataType: 'json',
@@ -426,7 +216,7 @@
     $.ajax({
       url: "http://localhost:8080/agm/v1/enclosures",
       beforeSend: function (request) {
-        request.setRequestHeader("Authorization", AUTH_KEY);
+        request.setRequestHeader("Authorization", "18e19745-ba8d-4f94-9a5f-6cde383797dd");
         // request.setRequestHeader("Access-Control-Allow-Origin", "*")
       },
       dataType: 'json',
@@ -487,14 +277,6 @@
       'soil-temperature': 'temp-level'
     }
 
-    let sensor_title = {
-      'temperature-humidity': 'temp-humid',
-      'soil-moisture': 'moisture-level',
-      'soil-temperature': 'temp-level'
-    }
-
-    console.log(enclosures);
-
     let enc_data = {};
 
     enclosures.forEach(function (enc) {
@@ -504,8 +286,7 @@
 
         enc.plants.forEach(function (plnt) {
           let plant_id = plnt['plant-id'];
-          // plnt.sensors.forEach(function (snsr) {
-          enc.sensors.forEach(function (snsr) {
+          plnt.sensors.forEach(function (snsr) {
             let sensor_id = snsr['sensor-id'];
             readings[0].forEach(function (reading) {
               if (reading['sensor-id'] === sensor_id) {
@@ -513,7 +294,7 @@
                 snsr_data.push({
                   plant_id: plant_id,
                   sensor_id: sensor_id,
-                  x_axis: reading[sensor_title[sensor_type] + '-reading-id'],
+                  x_axis: reading[sensor_type + '-reading-id'],
                   y_axis: reading[reading_title[sensor_type]]
                 });
               }
@@ -545,31 +326,11 @@
   }
 
   function drawGraph(enc_data) {
-    console.log("enc_data_b4");
-    console.log(enc_data)
-
-    let min = 0;
-    let max = 0;
+    // console.log("enc_data_b4");
+    // console.log(enc_data)
 
     for (const key of Object.keys(enc_data)) {
-
-      for (const key_1 of Object.keys(enc_data[key].data)) {
-
-        let num = enc_data[key].data[key].y_axis
-
-        if (num > max) {
-          max = num
-        }
-
-        if (num < min) {
-          min = num
-        }
-      }
-
-    }
-
-    for (const key of Object.keys(enc_data)) {
-      processGraph(enc_data[key].sensor_id, enc_data[key], min, max);
+      processGraph(enc_data[key].sensor_id, enc_data[key]);
     }
 
     // for (i = 0; i < enc_data.length; i++) {
@@ -577,8 +338,4 @@
     //   processGraph(enc_data[i].sensor_id, enc_data[i]);
     // }
 
-  }
-
-</script>
-
-</html>
+  }</script></html>
